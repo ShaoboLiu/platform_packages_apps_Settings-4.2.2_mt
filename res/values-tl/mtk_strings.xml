@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">Mga advanced na setting</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Paglipat ng file</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Ginagamit panlipat ng file</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Konektado sa pagpapadala ng file"</string>  
+    <string name="mtp_transfer_unmount_error_text">Hindi ma-unmount ang SD card habang naglilipat ng file</string>  
+    <string name="mtp_transfer_erase_error_text">Hindi mabura ang SD card habang naglilipat ng file</string>  
+    <string name="launch_error">"Hindi malunsad ang aplikasyon!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">I-unmount USB imbakan?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Kapag in-unmount mo ang USB na imbakan, ang ilang mga app na ginagamit mo ay ihihinto at maaaring hindi magamit hanggang sa i-mount mo uli ang USB na imbakan.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Hindi ma-unmount ang USB na imbakan. Subukan muli mamaya.</string>  
+    <string name="unmount_usb_inform_text" product="default">Ang USB imbakan ay ia-unmount.</string>  
+    <string name="sd_eject_usbstorage" product="default">"I-unmount imbakan na USB"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"I-unmount panloob USB storage"</string>  
+    <string name="sd_mount_usbstorage" product="default">"I-mount imbakan na USB"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Ipasok imbakan na USB sa pag-mount"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB storage</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"Nirerekomenda ang XP. Hinahayaan kang maglipat ng mga file sa pagitan ng iyong computer at iyong USB na imbakan ng Android."</string>  
+    <string name="usb_charge_title">Charge lang</string>  
+    <string name="usb_charge_summary">Ihinto lahat ng mga USB na paggamit. Pinahihintulutan kang pabilisin ang pag-charge ng USB at bawasan ang paggamit ng power.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">ID ng Humihiling</string>  
+    <string name="NI_Request_ClientName">Pangalan ng Kliyente</string>  
+    <string name="agps_str_verify">Pagpapatotoo</string>  
+    <string name="agps_str_notify">Abiso</string>  
+    <string name="EM_NotifyDialog_title">EM Abiso</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">PAHINTULUTAN</string>  
+    <string name="agps_str_deny">TANGGIHAN</string>  
+    <string name="agps_str_error">Error</string>  
+    <string name="AGPS_DEFAULT_STRING">A-GPS Default na String</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Nabigo ang Paglikha ng Network</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Maling nilalaman ng PUSH</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Hindi Suportadong Operasyon</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Hindi Tinanggap ang Hiling</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Walang Dulugan na Mamamahala sa bagong proseso</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Down ang Koneksyon sa Network</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Hininto ng Remote Side ang Sesyon (makatanggap ng SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Hindi Bumalik ang Inaasahang Mensahe sa Partikular ng Pagitan ng Oras</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Nakatanggap ng Maling Nilalaman ng Mensahe</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Sang-ayon ang gumagamit sa kumpirmasyon</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Tanggihan ang user sa kumpirmasyon</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Para lang sa HINDI na Posisyon</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Nabigo ang pagpapatotoo ng TLS</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Hinihintay ang timeout ng pagpapatotoo</string>  
+    <string name="AGPS_MODEM_RESET_HAPPEN" translatable="false">Modem reset happen</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">Natanggap ang Hiling sa SI</string>  
+    <string name="AGPS_EM_POS_FIXED">Pirmi ang Posisyon</string>  
+    <string name="AGPS_NOTIFY_ONLY">Abiso sa Hiling sa Lokasyon</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Hiling sa Lokasyon (Pahintulutan kung walang Sagot)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Hiling sa Lokasyon (Tanggihan kung walang Sagot)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Hiling sa Lokasyon (Pagkapribado)</string>  
+    <string name="epo_entrance_title">Mga EPO setting</string>  
+    <string name="epo_entrance_summary">Mag-click upang baguhin ang mga kumpigurasyon ng EPO</string>  
+    <string name="agps_settings_title">A-GPS na mga setting</string>  
+    <string name="epo_enable_confirm_title">Kumpirmahin ang pagpapagana ng EPO</string>  
+    <string name="epo_enable_confirm_message">Kailangan ng wireless na koneksyon ng datos upang makuha ang data ng tulong ng GPS (EPO) na maaaring magdulot ng ekstrang bayad sa network. Sigurado ka bang pagaganahin ang tulong ng GPS?</string>  
+    <string name="epo_enable_confirm_allow">Magpatuloy</string>  
+    <string name="epo_enable_confirm_deny">Kanselahin</string>  
+    <string name="agps_enable_confirm_title">Kumpirmahin ang pagpapagana ng A-GPS</string>  
+    <string name="agps_enable_confirm">Kailangan ng A-GPS ng wireless na koneksyon ng datos upang makuha ang datos ng katulong na maaaring magdulot ng mga ekstrang bayarin. Sigurado ka bang pagaganahin ang A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">Magpatuloy</string>  
+    <string name="agps_enable_confirm_deny">Kanselahin</string>  
+    <string name="epo_enable_title">GPS EPO na tulong</string>  
+    <string name="epo_enable_summary">Gamitin ang GPS na datos ng tulong (EPO) upang pabilisin ang pagpoposisyon ng GPS.</string>  
+    <!-- Do not translate.-->  
+    <string name="agps_settings_enable">A-GPS</string>  
+    <string name="agps_settings_enable_on">Mapapabilis ng GPS ang pirming oras ng lokasyon gamit ang datos ng katulong sa pamamagitang ng wireless na koneksyon ng datos</string>  
+    <string name="agps_settings_enable_off">Gamitin ang datos ng katulong upang pabilisin ang pirming oras ng lokasyon gamit ang GPS</string>  
+    <string name="agps_settings_eng_enable">A-GPS na mga setting</string>  
+    <string name="agps_settings_eng_summary">I-set up ang mga setting ng A-GPS</string>  
+    <string name="agps_disable_on_reboot">Huwag Paganahin matapos I-reboot</string>  
+    <string name="agps_disable_on_reboot_summary">Huwag paganahin ang kakayahang A-GPS matapos mag-reboot</string>  
+    <string name="Network_Initiate">Hiling sa Network</string>  
+    <string name="Network_Initiate_Summary_on">Pahintulutan ang network na humiling ng posisyon</string>  
+    <string name="Network_Initiate_Summary_off">Tanggihan ang network humiling ng posisyon</string>  
+    <string name="Network_Used">Ginamit na Network</string>  
+    <string name="agps_profile_select">Pampili ng Profile</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP Address</string>  
+    <string name="port_title">SLP Port</string>  
+    <!-- Do not translate.-->  
+    <string name="tls_title">TLS</string>  
+    <string name="tls_summary_off">Naka-off ang TLS</string>  
+    <string name="tls_summary_on">Naka-on ang TLS</string>  
+    <string name="MobileNetwork_Category">Mobile na Network</string>  
+    <string name="AgpsHelp_Category">Tulong</string>  
+    <string name="about_agps_title">Tungkol sa A-GPS</string>  
+    <string name="about_agps_message">\t Ang A-GPS (Assisted-GPS) ay ang sistema na maaaring magpabuti sa simulang pagganap at oras-upang-unang-ayusin (TTFF) ang mga GPS na satellite. \n\t Ang may kakayahan sa A-GPS na aparato ay makakakonekta sa mga server ng lokasyon upang kumuha ng data sa pagtulong sa pamamagitan ng koneksyon ng data ng mobile na network. \n\t Pansinin na ang trapiko ng data ay maaaring magdulot ng mga ekstrang bayarin sa ilalim ng mga roaming na kundisyon. Mangyaring makipag-ugnayan sa iyong mga operator para sa mga detalye.</string>  
+    <string name="epo_auto_download_title">Awto na download</string>  
+    <string name="epo_auto_download_summary">Awtomatikong mag-download ng datos ng posisyon ng satellite</string>  
+    <string name="epo_info_title">EPO impo ng file</string>  
+    <string name="epo_download_time_title">Tagal ng pag-download</string>  
+    <string name="epo_download_time_summary">Hindi magagamit</string>  
+    <string name="epo_start_time_title">Oras ng simula</string>  
+    <string name="epo_start_time_summary">Hindi magagamit</string>  
+    <string name="epo_expire_time_title">Oras ng pagpaso</string>  
+    <string name="epo_expire_time_summary">Hindi magagamit</string>  
+    <string name="epo_about_title">Tungkol sa EPO</string>  
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) ay isa sa makabagong pag-aari ng MediaTek sa off-line na server batay sa A-GPS technology. \n\tSinusuportahan nito ang hanggang 30 araw na satellite orbit prediction, na magagamit upang mahusay na pabutihin ang karanasan ng user sa pagpapabuti sa GPS Time To First Fix (TTFF).</string>  
+    <string name="Network_Local_and_Roaming_Summary">Gamitin ang A-GPS sa ilalim ng home at roaming na network</string>  
+    <string name="Network_Only_Local_Summary">Gamitin lang ang A-GPS sa ilalim ng home network</string>  
+    <string name="MobileNetwork_DataConn_off">Naka-off ang Koneksyon ng Datos</string>  
+    <string name="MobileNetwork_off_Summary">Paki-on ang koneksyon ng datos bago gamitin ang A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Aktibo ang Wi-Fi</string>  
+    <string name="MobileNetwork_on_Summary">Kailangang ma-access ng A-GPS ang mobile na network sa pamamagitan ng mga koneksyon sa datos</string>  
+    <string name="MobileNetwork_SIM_Active">Ang SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g> ay Aktibo
+    </string>  
+    <string name="Network_Roaming_dialog_title">Atensiyon</string>  
+    <string name="Network_Roaming_dialog_content">Kung ang network sa ilalim ng kundisyon ng roaming, ang A-GPS trapiko ng datos ay maaaring magdulot ng ekstrang mga bayad sa roaming.</string>  
+    <string name="epo_download">I-download</string>  
+    <string name="epo_error_no_activite_network">Paki-on ang koneksyon ng datos bago mag-download ng datos ng EPO</string>  
+    <string name="epo_cancel_download">Kanselahin</string>  
+    <string name="epo_status_stopping">Hinihinto…</string>  
+    <string name="epo_status_starting">Sinisimulan…</string>  
+    <string name="epo_err_update_failed">Nabigo ang pag-update sa mga EPO na file</string>  
+    <string name="epo_error_dialog_title">Error</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Atensiyon</string>  
+    <string name="epo_warning_dialog_message">Ang pag-download ng datos ng EPO sa katayuang roaming ay maaaring magdulot ng mga ekstrang bayarin. Sigurado ka bang magpatuloy?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">I-ring</string>  
+    <string name="ring_vibrate_summary">I-ring at i-vibrate</string>  
+    <string name="silent_summary">Tahimik lang</string>  
+    <string name="meeting_summary">Vibrate lang</string>  
+    <string name="outdoor_summary">Pinakamalakas na ring at pag-vibrate</string>  
+    <string name="audio_profile_reset">I-reset</string>  
+    <string name="audio_profile_add">Idagdag</string>  
+    <string name="audio_profile_enable">Paganahin</string>  
+    <string name="audio_profile_rename">Palitan ang pangalan</string>  
+    <string name="audio_profile_delete">Tanggalin</string>  
+    <string name="audio_profile_message_reset">Lahat ng mga setting ng profile ng audio ay ire-reset sa default</string>  
+    <string name="audio_profile_message_rename">Pakipasok ang bagong pangalan ng profile</string>  
+    <string name="audio_profile_message_name_error">Umiiral na ang pangalang pinasok</string>  
+    <string name="audio_profile_message_name_length_wrong">Dapat maglaman ng isa man lang na character ang pangalan</string>  
+    <string name="audio_profile_message_delete">Tatanggalin ang profile na 
+        <xliff:g id="profile">%s</xliff:g> 
+    </string>  
+    <string name="audio_profile_message_overflow">Pinahihintulutan ka lang magdagdag ng 6 na mga custom na profile</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Mga tinalaga ng gumagamit na profile</string>  
+    <string name="audio_profile_category_predefine_title">Mga nakatakda nang profile</string>  
+    <string name="general_settings_title">"Pangkalahatan"</string>  
+    <string name="silent_settings_title">Tahimik</string>  
+    <string name="meeting_settings_title">Pulong</string>  
+    <string name="outdoor_settings_title">Labas</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Sigurado ka bang nais mong mag-save? Ang mga pagbabago sa default na APN ay maaaring magdulot ng mga problema sa koneksyon!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">Hindi gumagana ang APN!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Paki- off ang Airplane mode upang paganahin ang mga APN Setting.</string>  
+    <string name="sound_category_feedback_title">"System"</string>  
+    <string name="sound_category_calls_title">"Mga papasok na tawag"</string>  
+    <string name="voice_call_title">Ringtone ng boses na tawag</string>  
+    <string name="voice_call_summary">"I-set ang iyong default na ringtone ng mga boses na tawag"</string>  
+    <string name="video_call_title">Ringtone ng boses na tawag</string>  
+    <string name="video_call_summary">I-set ang iyong default na ringtone ng mga boses na tawag</string>  
+    <string name="Phone_vibrate_summary">I-vibrate ang mga aparato sa mga papasok na tawag</string>  
+    <string name="vibrate_title">Vibrate</string>  
+    <string name="audio_profile_settings_title">Mga audio profile</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">Katayuan ng SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Kaugnay ng SIM na impormasyon</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(Slot2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL Bersiyon(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL Bersiyon(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(Slot2)</string>  
+    <string name="slot_status_title">"IMEI na impormasyon"</string>  
+    <string name="slot_status_summary">"IMEI na relative na impormasyon"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">Pasadyang build na bersiyon</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Serbisyo sa pag-update ng software</string>  
+    <string name="mota_system_update_summary">"Suriin ang update ng sistema sa server"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Mga update ng software</string>  
+    <string name="software_updates_more_summary">Suriin kung may bagong bersyon ng software</string>  
+    <string name="software_updates_scomo_summary">Suriin kung may bagong bersyon para sa aplikasyon</string>  
+    <string name="scomo_settings_title">Serbisyo sa pag-update ng software</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Timeout ng screen</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Paglunsad ng Landscape</string>  
+    <string name="landscape_launcher_none">Wala</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV out</string>  
+    <string name="tvout_settings_summary">Mga setting ng TV out</string>  
+    <string name="tv_system_title">Sistema ng TV</string>  
+    <!-- For HDMI begin -->  
+    <!-- Do not translate.-->  
+    <string name="hdmi_toggler">HDMI</string>  
+    <string name="hdmi_settings">Mga setting ng HDMI</string>  
+    <string name="hdmi_settings_summary">I-click upang ikumpigura ang HDMI</string>  
+    <string name="hdmi_audio_toggler">Audio</string>  
+    <string name="hdmi_video_toggler">video</string>  
+    <string name="hdmi_video_resolution">Resolusyon ng video</string>  
+    <string name="hdmi_notification_title">Konektado ang HDMI cable</string>  
+    <string name="hdmi_notification_content">I-click upang ikumpigura ang HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Mga Senaryo</string>  
+    <string name="mtk_thememanager_title">Tema</string>  
+    <string name="default_name">Default</string>  
+    <string name="custom_theme_name">Bago [%1$s]</string>  
+    <string name="loading">Naglo-load…</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Magpasok ng 4-8 na numero)</string>  
+    <string name="sim_remain">(Natitira: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Aabutin nang hanggang 1 minuto upang makakuha ng GPS na pag-ayos. Bagaman ang GPS ay maaaring mabigong maglaan ng oras dahil sa mahinang signal sa kapaligiran.\n\nSigurado ka bang gagamit ng nilaang oras ng GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Upang gumamit ng nilaan na oras ng GPS, dapat mong paganahin muna ang GPS. Aabutin ng hanggang 1 minuto upang makakuha ng GPS na pag-ayos. Bagaman ang GPS ay maaaring mabigong maglaan ng oras dahil sa mahinang signal sa kapaligiran.\n\nSigurado ka bang gagamit ng nilaang oras ng GPS?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">DRM reset</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Tinatanggal lahat ng mga lisensiya ng DRM</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Tatanggalin ng operasyong ito lahat ng mga lisensiya sa mga aparato na ito. Magpatuloy?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Tagumpay na natanggal ang mga lisensiya.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">Pamamahala ng SIM</string>  
+    <string name="gemini_sim_info_title">Impormasyon ng SIM</string>  
+    <string name="gemini_default_sim_title">Default na SIM</string>  
+    <string name="gemini_general_settings_title">Mga pangkalahatang setting</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_data_roaming_title">Roaming ng datos</string>  
+    <string name="gemini_data_roaming_summary">Kumonektas sa mga serbisyo ng datos kapag roaming</string>  
+    <string name="gemini_roaming_reminder_title">Ipakita ang paalala sa roaming</string>  
+    <string name="gemini_roaming_reminder_summary">Ipakita ang mungkahi sa SIM batay sa paggamit ng SIM</string>  
+    <string name="gemini_contacts_sim_title">"Mga Kontak &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Iugnay ang mga kontak sa partikular na SIM</string>  
+    <string name="gemini_voice_call">Voice na tawag</string>  
+    <string name="gemini_video_call">Video na tawag</string>  
+    <string name="gemini_data_connection">Koneksiyon ng datos</string>  
+    <string name="gemini_msg">Pagmemensahe</string>  
+    <string name="gemini_default_sim_always_ask">Laging magtanong</string>  
+    <string name="gemini_intenet_call">Internet na Tawag</string>  
+    <string name="gemini_default_sim_never">Off</string>  
+    <string name="gemini_default_sim_3g_off">Off</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Network Mode"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Hindi pa naipatupad!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Network na Mode</string>  
+    <string name="gemini_3g_service_settings">3G serbisyo</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Pinapagana\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Hindi pinapagana\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Nabigo, error sa network.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Airplane na mode</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Papasok ang telepono sa Airplane na mode. Lahat ng wireless na koneksyon ay hindi pagaganahin. Magpatuloy?</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">I-edit ang pangalan ng SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Nabigo ang pag-save</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Dobleng pangalan para sa SIM card</string>  
+    <string name="gemini_sim_info_editor_number">Ipasok ang numero ng telepono</string>  
+    <string name="gemini_sim_info_editor_color">Itakda ang kulay ng background</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Ipakita ang mga numero</string>  
+    <string name="gemini_no_sim_indicator">Walang SIM card</string>  
+    <string name="gemini_sim_list_default_title">Listahan ng mga SIM cards</string>  
+    <string name="gemini_data_connection_progress_message">"Pakihintay..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Ang paglipat ng SIM ay aabutin nang tinatayang 10 segundo upang kumpletuhin. Pakihintay..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ililipat din nito ang serbisyong 3G sa SIM na ito. Magpatuloy? Pakisiguro din na suportado ng napiling SIM na ito ang serbisyong 3G."</string>  
+    <string name="gemini_3g_disable_warning">"Hindi magagamit ang serbisyong 3G sa napiling SIM na ito. Maaaring mas mabagal nitong i-load ang datos. Mapapalitan mo ang setting ng 3G na serbisyo sa ilalim ng Mga Setting &gt; Wireless at mga network &gt; Mga mobile network."</string>  
+    <string name="gemini_3g_disable_warning_cu">"Hindi magagamit ang serbisyong 3G sa napiling SIM na ito. Maaaring mas mabagal nitong i-load ang datos. Mapapalitan mo ang setting ng 3G na serbisyo sa ilalim ng Mga Setting &gt; Pamamahala ng SIM."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Matapos paganahin ang serbisyong Auto-push, makakatanggap ka ng mga mensaheng pushed, magkakaroon ng lokal na aplikasyong tumatakbo at makagawa ng trapiko ng datos. Kasama sa karaniwang mga serbisyong auto-push ay ang abiso ng e-mail, pamamahala ng aparato, indikasyon ng serbisyo, pag-load ng serbisyo at pagprobisyon na push.</string>  
+    <string name="gemini_wap_push_permission_tail">Tanggapin ang kasunduang ito?</string>  
+    <string name="gemini_wap_push_permission_title">Kasunduan sa serbisyong auto-push</string>  
+    <string name="gemini_wap_push_permission">Serbisyong auto-push</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Kailangan mong i-enable ang data roaming para sa SIM na ito subalit ito ay maaaring maningil ng bayad sa roaming! Sigurado ka bang ie-enable ang data roaming at pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Ang serbisyong 3G service ay hindi magagamit sa napiling SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; Wireless &amp; networks &gt; Mobile networks. Sigurado ka bang pipiliin mo ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Ang serbisyong 3G service ay hindi magagamit sa napiling SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; SIM management. Sigurado ka bang pipiliin mo ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Dapat mo munang paganahin ang data roaming para sa SIM na ito na maaaring magkaroon ng makabuluhang singil sa roaming! Bagaman ang serbisyong 3G ay hindi magagamit sa SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; Wireless &amp; networks &gt; Mobile networks. Sigurado ka bang pagaganahin mo ang roaming ng data at pipilii ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Dapat mo munang paganahin ang data roaming para sa SIM na ito na maaaring magkaroon ng makabuluhang singil sa roaming! Bagaman ang serbisyong 3G ay hindi magagamit sa SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; SIM management. Sigurado ka bang pagaganahin mo ang roaming ng data at pipilii ang SIM na ito?"</string>  
+    <string name="gemini_sim_tether_info_title">Mga Contacts at SIM</string>  
+    <string name="gemini_sim_tether_add_record">Magdagdag ng Mga Contact</string>  
+    <string name="gemini_sim_add_title">Mga Contact</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Wala kang anumang numero ng kontak na kaugnay ng kasalukuyang SIM.\n\nHipuin ang button ng Magdagdag ng mga kontak upang piliin ang mga kontak na nais mong i-bind sa SIM na ito"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Walang mga kontak ang nakaimbak sa telepono. Pakidagdag ng bagong kontak o mag-import muna ng mga kontak"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Matagumpay na nakaugnay ang lahat ng mga kontak"</string>  
+    <string name="gemini_sim_tether_disassociate">Huwag Iugnay</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> napili
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">I-unselect lahat</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Piliin lahat</string>  
+    <string name="gemini_sim_tether_select_ok">I-save</string>  
+    <string name="gemini_sim_tether_select_cancel">Kanselahin</string>  
+    <string name="gemini_sim_tether_revert_title">Atensiyon</string>  
+    <string name="gemini_sim_tether_revert_message">Ang mga kumpigurasyon mo ay nabago at hindi nai-save. Sigurado ka bang aalis nang hindi nagse-save?</string>  
+    <string name="gemini_tether_saving_progress_message">Sine-save…</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>  
+    <!-- Gemini SimLock TabActivity Sim1 tab label -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>  
+    <!-- Gemini SimLock TabActivity Sim2 tab tag -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>  
+    <!-- Gemini SimLock TabActivity Sim2 tab label -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Nabigo, hindi balidong sim id.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">Hindi naka-plug ang SIM.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Naka-off ang Radio1.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Naka-off ang Radio2.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">Installer ng APK</string>  
+    <string name="akp_installer_settings_summary">I-install ang APK mo mula sa imbakan ng Telepono at SD card</string>  
+    <string name="launch_main_label">Ilunsad ang aplikasyon</string>  
+    <string name="launch_main">Ilunsad ang aplikasyon ayon sa pangunahing aktibidad</string>  
+    <string name="launch_activitie">Ilunsad</string>  
+    <string name="move_app_to_where">Ilipat sa 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Hindi mahanap ang sertipikasyon para sa kasalukuyang pangkonektang AP</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM Slot</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Sim Slot 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Sim Slot 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Paki-off ang Airplane mode upang gamiting ang EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Kailangan mong i-insert ang sim card para gamitin ang EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Kailangan mong piliin ang sim slot para gamitin ang EAP-SIM/AKA</string>  
+    <!--for wifi security title-->  
+    <!-- Concise terminology for wifi with WAPI PSK -->  
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>  
+    <string name="wifi_security_wapi_certificate">Sertipiko ng WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Sertipiko ng gumagamit</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">Sertipiko ng ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Hexadecimal na password.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">Transmit Key</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">Secury Key</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Panatiliing on ang Wi-Fi hotspot</string>  
+    <string name="wifi_disconnect" translatable="false">Disconnect</string>  
+    <string name="wifi_menu_disconnect" translatable="false">Disconnect from network</string>  
+    <string name="wifi_priority_label" translatable="false">Priority</string>  
+    <string name="wifi_priority_settings_label" translatable="false">Priority settings</string>  
+    <string name="wifi_configured_ap_list" translatable="false">Remembered access point list</string>  
+    <string name="trust_access_points" translatable="false">Default credible access points</string>  
+    <string name="configed_access_points" translatable="false">Credible access points</string>  
+    <string name="new_access_points" translatable="false">Unknown access points</string>  
+    <string name="msg_wlan_signal_found" translatable="false">Found WLAN signal %s, would you like to use this WLAN network? Using this network will interrupt the data service partially.</string>  
+    <string name="apn_list_category_title" translatable="false">Access point list</string>  
+    <string name="data_conn_category_title" translatable="false">Data connection</string>  
+    <string name="wifi_gprs_selector_title" translatable="false">Network selector</string>  
+    <string name="data_enabler_title" translatable="false">Data enabled</string>  
+    <string name="data_enabler_summary" translatable="false">Enable data access over Mobile network</string>  
+    <string name="data_enabler_waiting_message" translatable="false">"Please wait\u2026"</string>  
+    <string name="wifi_signal_found_msg" translatable="false">Current connection signal is weak, would you like to use another WLAN network?</string>  
+    <string name="wifi_tether_fix_channel_width_text" translatable="false">20 MHz</string>  
+    <string name="wifi_tether_auto_channel_text">Awto</string>  
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>  
+    <string name="wifi_channel">Nais na Channel</string>  
+    <string name="wifi_channel_width">Lapad ng Channel</string>  
+    <string name="confirm_title">Kumpirmahin</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Nais na mode sa paglipat ng GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Nais na datos</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Nais na tawag</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Mababawasan ang rate ng pagpapadala ng datos</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Itaka ang power on/off</string>  
+    <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->  
+    <string name="schedule_power_on_off_time">Oras</string>  
+    <!-- Date & time setting screen setting check box title if the date and time should be determined automatically -->  
+    <string name="schedule_power_on_off_repeat">Ulitin</string>  
+    <!-- Date & time setting screen setting option summary text when Automatic check box is selected (that is, when date and time should be determined automatically) -->  
+    <string name="schedule_power_on_off_set">Itaka ang iskedyul ng power on/off</string>  
+    <string name="schedule_power_on_set">I-set ang iskedyul ng pag-on ng power</string>  
+    <string name="schedule_power_off_set">Itakda ang pag-off ng power</string>  
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->  
+    <string name="enable_schpwr">Paganahin</string>  
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->  
+    <string name="disable_schpwr">Huwag paganahin</string>  
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->  
+    <string-array name="alarm_set"> 
+        <item>Ang power on ay nakatakda sa mas mababa sa 1 minuto mula ngayon.</item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>mula ngayon.
+        </item>  
+        <item>Ang pag-on ng power ay nakatakda sa 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> at 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Ang pag-on ng power ay nakatakda sa 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>%1$s
+        </item>  
+        <item>Ang pag-on ng power ay nakatakda sa 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> at 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, at 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Ang power off ay nakatakda sa mas mababa sa 1 minuto mula ngayon.</item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS">%1$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Ang pag-off ng power ay nakatakda sa 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> at 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Ang pag-off ng power ay nakatakda sa 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> at 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Ang pag-off ng power ay nakatakda sa 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> at 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item>  
+        <item>Nakatakda ang power on nang 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, at 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> mula ngayon.
+        </item> 
+    </string-array>  
+    <!-- Alarm confirmation toast: singular day -->  
+    <string name="day">"1 araw"</string>  
+    <!-- Alarm confirmation toast: plural days -->  
+    <string name="days">" 
+        <xliff:g id="days">%s</xliff:g> araw"
+    </string>  
+    <!-- Alarm confirmation toast: singular hour -->  
+    <string name="hour">"1 oras"</string>  
+    <!-- Alarm confirmation toast: plural hours -->  
+    <string name="hours"> 
+        <xliff:g id="hours">%s</xliff:g> oras
+    </string>  
+    <!-- Alarm confirmation toast: singular minute  -->  
+    <string name="minute">"1 minuto"</string>  
+    <!-- Alarm confirmation toast: plural minutes  -->  
+    <string name="minutes">" 
+        <xliff:g id="minutes">%s</xliff:g> minuto"
+    </string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->  
+    <string name="every_day">araw-araw</string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->  
+    <string name="never">Hindi kailanman</string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->  
+    <string name="day_concat" translatable="false">", "</string>  
+    <!-- Done button when editing an alarm. -->  
+    <string name="done">Tapos na</string>  
+    <!-- Revert button when editing an alarm. -->  
+    <string name="revert">"Ibalik"</string>  
+    <string name="schpwr_shutdown_message">"Magsa-shut down ang aparato mo sa 
+        <xliff:g id="seconds">%s</xliff:g> segundo"
+    </string>  
+    <string name="schpwr_shutdown_message_second">"Magsa-shut down ang aparato mo sa 
+        <xliff:g id="second">%s</xliff:g> segundo"
+    </string>  
+    <string name="usb_bicr_title">Built-in CD-ROM</string>  
+    <string name="usb_bicr_summary">Magpakita ng virtual na CD-ROM na naglalaman ng ilang kapakipakinabang na software.</string>  
+    <string name="select_memory">Default na pagsulat sa disk</string>  
+    <string name="ipo_title">Mabilisang boot</string>  
+    <string name="ipo_summary_on">Huwag paganahin ang mabilisang boot</string>  
+    <string name="ipo_summary_off">Paganahin mabilisang boot</string>  
+    <string name="agps_profile_select_Title">SUPL Profile</string>  
+    <string name="location_settings_label">Location Engineer na Mode</string>  
+    <string name="audio_profile_error">Error</string>  
+    <string name="battery_percent">Porsiyento ng Baterya</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">Mga setting ng RCS-e</string>
+    <!-- Titles for battery warning dialog -->  
+    <string name="title_charger_over_voltage">Sobra sa Charger Voltage</string>  
+    <string name="title_battery_over_temperature">Sobra sa Temperatura ng Baterya</string>  
+    <string name="title_over_current_protection">Sobra sa Proteksyon ng Current</string>  
+    <string name="title_battery_over_voltage">Sobra sa Voltage ng Baterya</string>  
+    <string name="title_safety_timer_timeout">Sobra sa Oras ng Charge</string>  
+    <!-- Messages for battery warning dialog -->  
+    <string name="msg_charger_over_voltage">Sobra sa voltage ang charger mo, pakidiskonekta ang charger!</string>  
+    <string name="msg_battery_over_temperature">Sobra sa temperatura ang baterya mo, paki-alis ang baterya!</string>  
+    <string name="msg_over_current_protection">Sobra sa proteksiyon sa current ang baterya mo, paki-alis ang baterya!</string>  
+    <string name="msg_battery_over_voltage">Sobra sa voltage ang baterya mo, paki-alis ang baterya!</string>  
+    <string name="msg_safety_timer_timeout">Masyadng matagal ang oras ng charge, pakidiskonekta ang charger!</string>  
+    <string name="btn_ok_msg">"Snooze"</string>  
+    <string name="btn_cancel_msg">"Balewalain"</string> 
+    <string name="dlg_mount_external_sd_title" product="default">I-mount ang SD card?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Kapag nag-mount ka ng sd card, ang ilang apps na ginagamit mo ay hihinto.</string> 	
+
+    <string name="tethered_ipv6_title">Mga setting ng hotspot &amp; tethering</string>  
+    <string name="tethered_ipv4v6">(Magagamit ang IPv6)</string>  
+    <string name="tethered_ipv6">(IPv6 lang ang magagamit)</string>  
+    <string name="tethered_ipv4">(Hindi magagamit ang IPv6)</string>
+</resources>

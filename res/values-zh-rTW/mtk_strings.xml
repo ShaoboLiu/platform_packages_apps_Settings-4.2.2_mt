@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <string name="bluetooth_advanced_settings">"藍牙進階設定"</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">檔案傳輸</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">用於檔案傳輸</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"已連接檔案傳輸"</string>  
+    <string name="mtp_transfer_unmount_error_text">傳輸檔案時無法卸載 SD 卡</string>  
+    <string name="mtp_transfer_erase_error_text">傳輸檔案時無法消除 SD 卡</string>  
+    <string name="launch_error">"無法啟動應用程式!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">是否卸載USB儲存裝置?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">卸載USB儲存裝置後，你所使用的部分app將停止運作，並於重新裝載USB裝置後才可使用。</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">無法卸載 USB 儲存裝置，請稍後再試。</string>  
+    <string name="unmount_usb_inform_text" product="default">將卸載USB儲存裝置。</string>  
+    <string name="sd_eject_usbstorage" product="default">"無法卸載 USB 儲存裝置"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"請先卸載 SD 卡，才能將其安全移除"</string>  
+    <string name="sd_mount_usbstorage" product="default">"掛接 USB 儲存裝置"</string>  
+    <string name="sd_insert_usb_summary" product="default">"插入用於掛接的 USB 儲存裝置"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB 儲存裝置</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"建議使用 XP。您可藉此在電腦和 Android 的 USB 儲存裝置間傳輸檔案。"</string>  
+    <string name="usb_charge_title">僅限充電</string>  
+    <string name="usb_charge_summary">停止所有 USB 功能。協助您加快 USB 充電速度並減少耗電量。</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">請求方</string>  
+    <string name="NI_Request_ClientName">定位應用名稱</string>  
+    <string name="agps_str_verify">訊息確認</string>  
+    <string name="agps_str_notify">訊息通報</string>  
+    <string name="EM_NotifyDialog_title">EM 通報訊息</string>  
+    <string name="agps_OK">確定</string>  
+    <string name="agps_str_allow">"允許"</string>  
+    <string name="agps_str_deny">拒絕</string>  
+    <string name="agps_str_error">錯誤</string>  
+    <string name="AGPS_DEFAULT_STRING">A-GPS 預設字串</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">網路連接錯誤</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">PUSH 內容不正確</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">操作沒有支援</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">請求沒有被接受</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">資源不足以處理新的程序</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">網路連線已經斷開</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">遠端終止 SESSION</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">在限定時間內沒有收到預期的訊息</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">接收到的訊息內容不正確</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">使用者確認同意</string>  
+    <string name="AGPS_CAUSE_USER_DENY">使用者確認拒絕</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">僅使用於 NO POSITION</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">TLS 驗證失敗</string>  
+    <string name="USER_RESPONSE_TIMEOUT">等待驗證逾時</string>  
+    <string name="AGPS_MODEM_RESET_HAPPEN" translatable="false">Modem reset happen</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">接收 SI 請求</string>  
+    <string name="AGPS_EM_POS_FIXED">定位完成</string>  
+    <string name="AGPS_NOTIFY_ONLY">位置請求通知</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">位置請求(預設為同意)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">位置請求(預設為拒絕)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">位置請求(隱私)</string>  
+    <string name="epo_entrance_title">EPO設定</string>  
+    <string name="epo_entrance_summary">點選以修改 EPO 組態設定</string>  
+    <string name="agps_settings_title">A-GPS 設定</string>  
+    <string name="epo_enable_confirm_title">EPO 啟用確認</string>  
+    <string name="epo_enable_confirm_message">需要無線資料連線以取得 GPS 協助資料(EPO)（可能造成額外網路費用），您確定要開啟 GPS 協助？</string>  
+    <string name="epo_enable_confirm_allow">繼續</string>  
+    <string name="epo_enable_confirm_deny">取消</string>  
+    <string name="agps_enable_confirm_title">A-GPS 開啟確認</string>  
+    <string name="agps_enable_confirm">使用 A-GPS 將產生數據流量, 您確定要打開 A-GPS 功能嗎?</string>  
+    <string name="agps_enable_confirm_allow">繼續</string>  
+    <string name="agps_enable_confirm_deny">取消</string>  
+    <string name="epo_enable_title">GPS EPO 協助</string>  
+    <string name="epo_enable_summary">使用 GPS 協助資料(EPO) 加速 GPS 定位。</string>  
+    <!-- Do not translate.-->  
+    <string name="agps_settings_enable">A-GPS</string>  
+    <string name="agps_settings_enable_on">GPS可以透過無線網路取得輔助資料以加速定位時間</string>  
+    <string name="agps_settings_enable_off">使用輔助資料來加速GPS定位時間</string>  
+    <string name="agps_settings_eng_enable">A-GPS 設定</string>  
+    <string name="agps_settings_eng_summary">修改A-GPS設定</string>  
+    <string name="agps_disable_on_reboot">重新開機之後關閉</string>  
+    <string name="agps_disable_on_reboot_summary">重新開機之後關閉A-GPS功能</string>  
+    <string name="Network_Initiate">網路定位請求</string>  
+    <string name="Network_Initiate_Summary_on">允許網路請求所在位置</string>  
+    <string name="Network_Initiate_Summary_off">拒絕網路請求所在位置</string>  
+    <string name="Network_Used">使用網路</string>  
+    <string name="agps_profile_select">使用配置</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP 伺服器位址</string>  
+    <string name="port_title">SLP 伺服器連接埠</string>  
+    <!-- Do not translate.-->  
+    <string name="tls_title">TLS</string>  
+    <string name="tls_summary_off">TLS 關閉狀態</string>  
+    <string name="tls_summary_on">TLS 開啟狀態</string>  
+    <string name="MobileNetwork_Category">行動網路</string>  
+    <string name="AgpsHelp_Category">小幫手</string>  
+    <string name="about_agps_title">關於 A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (輔助 GPS) 乃是改善啟動效能和 GPS 衛星首次定位時間 (TTFF) 的系統。\n\t 具備 A-GPS 功能的裝置可透過行動網路資料連線來連接位置伺服器，並取得輔助資料。 \n\t 請注意，網路漫遊時，資料流量的費用較為昂貴。請聯絡您的通訊業者瞭解詳情。</string>  
+    <string name="epo_auto_download_title">自動下載</string>  
+    <string name="epo_auto_download_summary">自動下載衛星位置資料</string>  
+    <string name="epo_info_title">EPO 檔案資訊</string>  
+    <string name="epo_download_time_title">下載時間</string>  
+    <string name="epo_download_time_summary">不可用</string>  
+    <string name="epo_start_time_title">開始時間</string>  
+    <string name="epo_start_time_summary">不可用</string>  
+    <string name="epo_expire_time_title">逾期時間</string>  
+    <string name="epo_expire_time_summary">不可用</string>  
+    <string name="epo_about_title">關於 EPO</string>  
+    <string name="epo_about_message">\tEPO (擴大預報軌道) 為 MediaTek 其中一項創新的專有離線伺服器 A-GPS 技術。 \n\t此技術最多可支援 30 天的衛星軌道預報，能改善 GPS 首次定位時間 (TTFF)，大幅提升使用者經驗。</string>  
+    <string name="Network_Local_and_Roaming_Summary">在主網路及漫遊網路中都使用 A-GPS</string>  
+    <string name="Network_Only_Local_Summary">僅在主網路中使用 A-GPS</string>  
+    <string name="MobileNetwork_DataConn_off">網路資料連接服務已關閉</string>  
+    <string name="MobileNetwork_off_Summary">使用A-GPS前請開啟網路資料連接服務</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi 已連接</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS需要資料連接服務以存取行動網路</string>  
+    <string name="MobileNetwork_SIM_Active">使用SIM卡資料連接服務</string>  
+    <string name="Network_Roaming_dialog_title">注意</string>  
+    <string name="Network_Roaming_dialog_content">在漫遊網路下使用 A-GPS 可能會產生額外的通信費用.</string>  
+    <string name="epo_download">下載</string>  
+    <string name="epo_error_no_activite_network">下載 EPO 資料前，請開啟資料連線。</string>  
+    <string name="epo_cancel_download">取消</string>  
+    <string name="epo_status_stopping">停止中…</string>  
+    <string name="epo_status_starting">開始…</string>  
+    <string name="epo_err_update_failed">更新 EPO 檔案失敗</string>  
+    <string name="epo_error_dialog_title">錯誤</string>  
+    <string name="epo_ok_btn">確定</string>  
+    <string name="epo_warning_dialog_title">注意</string>  
+    <string name="epo_warning_dialog_message">於漫遊狀態時下載 EPO 資料可能造成額外費用，您確定要繼續嗎？</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">鈴響</string>  
+    <string name="ring_vibrate_summary">鈴響與振動</string>  
+    <string name="silent_summary">僅靜音</string>  
+    <string name="meeting_summary">僅振動</string>  
+    <string name="outdoor_summary">最大鈴響與振動</string>  
+    <string name="audio_profile_reset">重設</string>  
+    <string name="audio_profile_add">"新增"</string>  
+    <string name="audio_profile_enable">"啟用"</string>  
+    <string name="audio_profile_rename">"重新命名"</string>  
+    <string name="audio_profile_delete">"刪除"</string>  
+    <string name="audio_profile_message_reset">所有音訊設定檔設定將重設為預設值</string>  
+    <string name="audio_profile_message_rename">請輸入新設定檔名稱</string>  
+    <string name="audio_profile_message_name_error">所輸入的名稱已存在</string>  
+    <string name="audio_profile_message_name_length_wrong">名稱至少必須包含一個字元</string>  
+    <string name="audio_profile_message_delete">將刪除設定檔 
+        <xliff:g id="profile">%s</xliff:g> 
+    </string>  
+    <string name="audio_profile_message_overflow">您只能新增 6 個自訂設定檔</string>  
+    <string name="ok">確定</string>  
+    <string name="audio_profile_category_custom_title">使用者定義的設定檔</string>  
+    <string name="audio_profile_category_predefine_title">預先定義的設定檔</string>  
+    <string name="general_settings_title">"一般"</string>  
+    <string name="silent_settings_title">"靜音"</string>  
+    <string name="meeting_settings_title">會議</string>  
+    <string name="outdoor_settings_title">戶外</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">確定要儲存？修改預設 APN 可能會造成連線問題！</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN停用!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">請先關閉飛航模式，才可進行APN設定。</string>  
+    <string name="sound_category_feedback_title">"系統"</string>  
+    <string name="sound_category_calls_title">"來電"</string>  
+    <string name="voice_call_title">"語音來電鈴聲"</string>  
+    <string name="voice_call_summary">"設定預設語音來電鈴聲"</string>  
+    <string name="video_call_title">影像來電鈴聲</string>  
+    <string name="video_call_summary">設定預設影像來電鈴聲</string>  
+    <string name="Phone_vibrate_summary">來電發出震動</string>  
+    <string name="vibrate_title">振動</string>  
+    <string name="audio_profile_settings_title">音訊設定檔</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">SIM卡狀態</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">SIM卡相關資訊</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(Slot2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL版本(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL Version(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(Slot2)</string>  
+    <string name="slot_status_title">IMEI 資訊</string>  
+    <string name="slot_status_summary">IMEI 相關資訊</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">"自訂組建版本"</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">軟體更新服務</string>  
+    <string name="mota_system_update_summary">"檢測更新"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">軟體更新</string>  
+    <string name="software_updates_more_summary">檢測軟件更新</string>  
+    <string name="software_updates_scomo_summary">檢測應用更新</string>  
+    <string name="scomo_settings_title">軟體更新服務</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">"螢幕自動關閉"</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">橫向啟動程式</string>  
+    <string name="landscape_launcher_none">"無"</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV輸出</string>  
+    <string name="tvout_settings_summary">TV 輸出設置</string>  
+    <string name="tv_system_title">TV 系統設置</string>  
+    <!-- For HDMI begin -->  
+    <!-- Do not translate.-->  
+    <string name="hdmi_toggler">HDMI</string>  
+    <string name="hdmi_settings">HDMI 設定</string>  
+    <string name="hdmi_settings_summary">按一下即可設定 HDMI</string>  
+    <string name="hdmi_audio_toggler">"聲音"</string>  
+    <string name="hdmi_video_toggler">"視訊"</string>  
+    <string name="hdmi_video_resolution">視訊解析度</string>  
+    <string name="hdmi_notification_title">HDMI 纜線已連接</string>  
+    <string name="hdmi_notification_content">按一下即可設定 HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">場景</string>  
+    <string name="mtk_thememanager_title">主題</string>  
+    <string name="default_name">"預設"</string>  
+    <string name="custom_theme_name">新增 [%1$s]</string>  
+    <string name="loading">正在載入…</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">"(請輸入4-8數字)"</string>  
+    <string name="sim_remain">(剩餘： 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">最多需要 1 分鐘才能取得 GPS 定位。此外，GPS 可能會因為環境訊號微弱而無法提供時間。\n\n是否確定使用 GPS 提供的時間?</string>  
+    <string name="gps_time_sync_attention_gps_off">若要使用 GPS 提供的時間，必須先啟用 GPS 。此外，GPS 可能會因為環境訊號微弱而無法提供時間。\n\n是否立即啟用 GPS 並等待 GPS 提供時間?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">DRM重設</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">刪除所有DRM許可證</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">此動作將刪除此裝置的所有許可證，是否繼續?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">DRM許可證刪除成功</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">SIM 管理</string>  
+    <string name="gemini_sim_info_title">SIM 資訊</string>  
+    <string name="gemini_default_sim_title">預設 SIM</string>  
+    <string name="gemini_general_settings_title">一般設定</string>  
+    <string name="gemini_roaming_settings_title">漫遊</string>  
+    <string name="gemini_data_roaming_title">資料漫遊</string>  
+    <string name="gemini_data_roaming_summary">漫遊時連接至資料服務</string>  
+    <string name="gemini_roaming_reminder_title">顯示漫遊提醒</string>  
+    <string name="gemini_roaming_reminder_summary">根據 SIM 使用顯示 SIM 建議</string>  
+    <string name="gemini_contacts_sim_title">聯絡人與 SIM</string>  
+    <string name="gemini_contacts_sim_summary">與特定 SIM 結合聯絡人</string>  
+    <string name="gemini_voice_call">語音通話</string>  
+    <string name="gemini_video_call">視訊通話</string>  
+    <string name="gemini_data_connection">行動網路</string>  
+    <string name="gemini_msg">"簡訊"</string>  
+    <string name="gemini_default_sim_always_ask">每次詢問</string>  
+    <string name="gemini_intenet_call">"網路通話"</string>  
+    <string name="gemini_default_sim_never">關閉</string>  
+    <string name="gemini_default_sim_3g_off">關閉</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"網路模式"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">"尚未建置！"</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">"GSM/UMTS 網路偏好設定"</string>  
+    <string name="gemini_3g_service_settings">3G服务</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">正在啟用\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">正在停用\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">網路錯誤，操作失敗。</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">飛航模式</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">電話將轉為飛航模式，將停用所有無線網路，是否繼續?</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">編輯 SIM 名稱</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">儲存失敗</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM 卡名稱已存在</string>  
+    <string name="gemini_sim_info_editor_number">輸入電話號碼</string>  
+    <string name="gemini_sim_info_editor_color">設定背景顏色</string>  
+    <string name="gemini_sim_info_editor_number_display_format">顯示號碼</string>  
+    <string name="gemini_no_sim_indicator">無 SIM 卡</string>  
+    <string name="gemini_sim_list_default_title">SIM 卡清單</string>  
+    <string name="gemini_data_connection_progress_message">"請稍候…"</string>  
+    <string name="gemini_3g_modem_switching_message">切換 SIM 卡約需 10 秒。請稍候…</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">這會將 3G 服務切換至此 SIM 卡。是否繼續？請確認所選 SIM 卡支援 3G 服務。</string>  
+    <string name="gemini_3g_disable_warning">"你所選擇的SIM卡無法提供3G服務，資料載入將較為緩慢。你可以從[設定]&gt;[無線功能與網路]&gt;[行動網路]調整3G服務設定值。"</string>  
+    <string name="gemini_3g_disable_warning_cu">"你所選擇的SIM卡無法提供3G服務，資料載入將較為緩慢。你可以從[設定]&gt;[SIM卡管理]調整3G服務設定值。"</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">"開啟自動推送服務後，可以接收業務平台向終端推送的消息並觸發本地程序運行和產生數據流量。常見的自動推送服務包括郵件通知、設備管理、服務指示、服務加載、配置推送等。"</string>  
+    <string name="gemini_wap_push_permission_tail">"是否接受該協議？"</string>  
+    <string name="gemini_wap_push_permission_title">"自動推送服務協議"</string>  
+    <string name="gemini_wap_push_permission">"自動推送服務"</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"您必須先啟用此 SIM 卡的數據漫遊功能，但此舉會產生高額漫遊費用！是否確定要啟用數據漫遊功能，並選擇此 SIM 卡？"</string>  
+    <string name="gemini_3g_disable_warning_case1">"所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [無線和網路] &gt; [行動網路] 來變更 3G 服務。確定要選擇此 SIM 卡?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [SIM 卡管理] 來變更 3G 服務。確定要選擇此 SIM 卡?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"您必須先啟用此 SIM 卡的資料漫遊功能；啟用後會產生較昂貴的漫遊費用！此外，所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [無線和網路] &gt; [行動網路] 來變更 3G 服務。確定要選擇此 SIM 卡？"</string>  
+    <string name="gemini_3g_disable_warning_case4">"您必須先啟用此 SIM 卡的資料漫遊功能；啟用後會產生較昂貴的漫遊費用！此外，所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [SIM 卡管理] 來變更 3G 服務。確定要選擇此 SIM 卡?"</string>  
+    <string name="gemini_sim_tether_info_title">聯絡人 &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">增加聯絡人</string>  
+    <string name="gemini_sim_add_title">聯絡人</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">目前使用的 SIM 卡尚未連結聯絡人號碼。\n\n若要將聯絡人號碼連結至 SIM 卡輕觸新增聯絡人按鈕</string>  
+    <string name="gemini_sim_tether_nocontacts">手機中沒有聯繫人。請先添加或導入聯繫人。</string>
+    <string name="gemini_sim_tether_nocontact_confirm">確定</string>  
+    <string name="gemini_sim_tether_select_all">全部選取</string>  
+    <string name="gemini_sim_tether_select_ok">儲存</string>  
+    <string name="gemini_sim_tether_select_cancel">取消</string>  
+    <string name="gemini_sim_tether_revert_title">注意</string>  
+    <string name="gemini_sim_tether_revert_message">您的組態已變更且無法儲存，您確定要不儲存離開？</string>  
+    <string name="gemini_tether_saving_progress_message">儲存中…</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>  
+    <!-- Gemini SimLock TabActivity Sim1 tab label -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>  
+    <!-- Gemini SimLock TabActivity Sim2 tab tag -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>  
+    <!-- Gemini SimLock TabActivity Sim2 tab label -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">失敗，SIM卡ID無效。</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">未插入 SIM。</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 已關閉。</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 已關閉。</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">APK 安裝程式</string>  
+    <string name="akp_installer_settings_summary">從手機儲存空間和 SD 卡安裝 APK</string>  
+    <string name="launch_main_label">啟動應用程序</string>  
+    <string name="launch_main">由主要活動啟動應用程式</string>  
+    <string name="launch_activitie">啟動</string>  
+    <string name="move_app_to_where">移動至 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">未能找到正在連接的接入點的證書</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM 卡槽</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">SIM 卡槽 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">SIM 卡槽 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">若要使用 EAP-SIM/AKA，請關閉飛航模式</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">您必須插入 SIM 卡才能使用 EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">您必須選擇 SIM 卡槽才能使用 EAP-SIM/AKA</string>  
+    <!--for wifi security title-->  
+    <!-- Concise terminology for wifi with WAPI PSK -->  
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>  
+    <string name="wifi_security_wapi_certificate">WAPI 憑證</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">使用者認證</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">ASE認證</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">"十六進制密碼"</string> 
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">"傳輸鍵"</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">"安全鍵"</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">保持Wi-Fi上網據點開啟</string>  
+    <string name="wifi_tether_auto_channel_text">自動</string>  
+    <string name="wifi_tether_auto_channel_width_text">自動 20/40 MHz</string>  
+    <string name="wifi_channel">優先頻道</string>  
+    <string name="wifi_channel_width">頻道寬度</string>  
+    <string name="confirm_title">確認</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">GPRS傳輸慣用設定</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">資料慣用設定</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">通話慣用設定</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">資料傳輸率將會降低。</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">定時開/關機</string>  
+    <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->  
+    <string name="schedule_power_on_off_time">時間</string>  
+    <!-- Date & time setting screen setting check box title if the date and time should be determined automatically -->  
+    <string name="schedule_power_on_off_repeat">重複</string>  
+    <!-- Date & time setting screen setting option summary text when Automatic check box is selected (that is, when date and time should be determined automatically) -->  
+    <string name="schedule_power_on_off_set">定時開/關機設置</string>  
+    <string name="schedule_power_on_set">"設定定時開機"</string>  
+    <string name="schedule_power_off_set">"設定定時關機"</string>  
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->  
+    <string name="enable_schpwr">"啟用"</string>  
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->  
+    <string name="disable_schpwr">停用</string>  
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->  
+    <string-array name="alarm_set"> 
+        <item>開機時間距離目前不到1分鐘。</item>  
+        <item>已將此定時開機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>後啟動。
+        </item>  
+        <item>"已將此定時開機設為 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>後啟動。"
+        </item>  
+        <item>已將此定時開機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>又 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>後啟動。
+        </item>  
+        <item>"已將此定時開機設為 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。"
+        </item>  
+        <item>已將此定時開機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>又 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。
+        </item>  
+        <item>"已將此定時開機設為 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>又 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。"
+        </item>  
+        <item>已將此定時開機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>， 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>又 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。
+        </item>  
+        <item>關機時間距離目前不到1分鐘。</item>  
+        <item>已將此定時關機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>後啟動。
+        </item>  
+        <item>"已將此定時關機設為 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>後啟動。"
+        </item>  
+        <item>已將此定時關機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>又 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>後啟動。
+        </item>  
+        <item>"已將此定時關機設為 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。"
+        </item>  
+        <item>已將此定時關機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>又 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。
+        </item>  
+        <item>"已將此定時關機設為 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>又 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。"
+        </item>  
+        <item>已將此定時關機設為 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>， 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>又 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>後啟動。
+        </item> 
+    </string-array>  
+    <!-- Alarm confirmation toast: singular day -->  
+    <string name="day">"1 天"</string>  
+    <!-- Alarm confirmation toast: plural days -->  
+    <string name="days">" 
+        <xliff:g id="days">%s</xliff:g> 天"
+    </string>  
+    <!-- Alarm confirmation toast: singular hour -->  
+    <string name="hour">"1 小時"</string>  
+    <!-- Alarm confirmation toast: plural hours -->  
+    <string name="hours"> 
+        <xliff:g id="hours">%s</xliff:g> 小時
+    </string>  
+    <!-- Alarm confirmation toast: singular minute  -->  
+    <string name="minute">"1 分鐘"</string>  
+    <!-- Alarm confirmation toast: plural minutes  -->  
+    <string name="minutes">" 
+        <xliff:g id="minutes">%s</xliff:g> 分鐘"
+    </string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->  
+    <string name="every_day">每天</string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->  
+    <string name="never">永不</string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->  
+    <string name="day_concat" translatable="false">", "</string>  
+    <!-- Done button when editing an alarm. -->  
+    <string name="done">完成</string>  
+    <!-- Revert button when editing an alarm. -->  
+    <string name="revert">"復原"</string>  
+    <string name="schpwr_shutdown_message">"手機將于 
+        <xliff:g id="seconds">%s</xliff:g> 秒後關機"
+    </string>  
+    <string name="schpwr_shutdown_message_second">"手機將于 
+        <xliff:g id="second">%s</xliff:g> 秒後關機"
+    </string>  
+    <string name="usb_bicr_title">內建光碟機</string>  
+    <string name="usb_bicr_summary">顯示包含數種實用軟體的虛擬光碟。</string>  
+    <string name="select_memory">預設寫入磁碟</string>  
+    <string name="ipo_title">快速開機</string>  
+    <string name="ipo_summary_on">關閉快速開機</string>  
+    <string name="ipo_summary_off">啟動快速開機</string>  
+    <string name="agps_profile_select_Title">SUPL 服務器</string>  
+    <string name="location_settings_label">定位設置模式</string>  
+    <string name="audio_profile_error">錯誤</string>  
+    <string name="battery_percent">電池電量</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">RCS-e 設定</string>
+    <!-- Titles for battery warning dialog -->  
+    <string name="title_charger_over_voltage">"充電電壓過高"</string>  
+    <string name="title_battery_over_temperature">"高電池溫度過高"</string>  
+    <string name="title_over_current_protection">"超過電流保護"</string>  
+    <string name="title_battery_over_voltage">"電池電壓過高"</string>  
+    <string name="title_safety_timer_timeout">"充電時間過長"</string>  
+    <!-- Messages for battery warning dialog -->  
+    <string name="msg_charger_over_voltage">"您的充電電壓過高，請斷開充電器！"</string>  
+    <string name="msg_battery_over_temperature">"您的電池溫度過高，請移除電池！"</string>  
+    <string name="msg_over_current_protection">"您的電池超過電流保護，請移除電池！"</string>  
+    <string name="msg_battery_over_voltage">"您的電池電壓過高，請移除電池！"</string>  
+    <string name="msg_safety_timer_timeout">"充電時間過長，請斷開充電器！"</string>  
+    <string name="btn_ok_msg">"稍後提醒"</string>  
+    <string name="btn_cancel_msg">"跳過"</string> 	
+
+    <!--IPV6 Tethered-->
+    <string name="tethered_ipv6_title">網路共用與可攜式無線基地台</string>
+    <string name="tethered_ipv4v6">(IPv6 可用)</string>
+    <string name="tethered_ipv6">(僅 IPv6 可用)</string>
+    <string name="tethered_ipv4">(IPv6 可用)</string>
+    <!-- Thethering apn settings menu -->
+    <string name="tethering_apn_settings_title">APN 設定</string>
+    <!-- Thethering apn settings menu -->
+    <string name="tethering_apn_settings_summary">設定網路共用 APN</string>
+ 
+    <!-- CMCC WLAN customization begin-->
+    <string name="wifi_disconnect">中斷連線</string>  
+    <string name="wifi_menu_disconnect">中斷網路連線</string> 
+    <string name="trust_access_points">默認信任接入點</string>
+    <string name="configed_access_points">信任接入點</string>
+    <string name="new_access_points">未知接入點</string> 
+    <string name="apn_list_category_title">清單</string>  
+    <string name="data_conn_category_title">行動網路</string>  
+    <string name="wifi_gprs_selector_title">網路選擇器</string>  
+    <string name="data_enabler_title">資料啟用</string>  
+    <string name="data_enabler_summary">啟用行動網路資料存取</string>  
+    <string name="data_enabler_waiting_message">"請稍候\u2026"</string>  
+    <!-- CMCC WLAN customization end-->
+    <string name="dlg_mount_external_sd_title" product="default">是否裝載 SD 卡?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">若裝載 SD 卡，您正在使用的部分應用程式將會終止。</string> 
+</resources>

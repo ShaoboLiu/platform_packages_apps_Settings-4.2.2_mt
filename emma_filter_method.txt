@@ -1,0 +1,35 @@
+-com.android.settings.applications.InstalledAppDetails.access$000 (InstalledAppDetails, Message): void
+-com.android.settings.applications.InstalledAppDetails.access$100 (InstalledAppDetails): ApplicationsState$AppEntry
+-com.android.settings.applications.InstalledAppDetails.access$1000 (InstalledAppDetails, String): void
+-com.android.settings.applications.InstalledAppDetails.access$1100 (InstalledAppDetails, int): CharSequence
+-com.android.settings.applications.InstalledAppDetails.access$1200 (InstalledAppDetails): CompoundButton
+-com.android.settings.applications.InstalledAppDetails.access$1300 (InstalledAppDetails, boolean): void
+-com.android.settings.applications.InstalledAppDetails.access$1500 (InstalledAppDetails): PackageManager
+-com.android.settings.applications.InstalledAppDetails.access$1600 (InstalledAppDetails): void
+-com.android.settings.applications.InstalledAppDetails.access$200 (InstalledAppDetails): ApplicationsState
+-com.android.settings.applications.InstalledAppDetails.access$300 (InstalledAppDetails, Message): void
+-com.android.settings.applications.InstalledAppDetails.access$400 (InstalledAppDetails): Handler
+-com.android.settings.applications.InstalledAppDetails.access$500 (InstalledAppDetails): void
+-com.android.settings.applications.InstalledAppDetails.access$600 (InstalledAppDetails): void
+-com.android.settings.applications.InstalledAppDetails.access$700 (InstalledAppDetails, String): void
+-com.android.settings.applications.InstalledAppDetails.access$800 (InstalledAppDetails, boolean, boolean): void
+-com.android.settings.applications.InstalledAppDetails.access$900 (InstalledAppDetails): Button
+-com.android.settings.applications.InstalledAppDetails.forceStopPackage (String): void
+-com.android.settings.applications.InstalledAppDetails.getMoveErrMsg (int): CharSequence
+-com.android.settings.applications.InstalledAppDetails.initiateClearUserData (): void
+-com.android.settings.applications.InstalledAppDetails.isExSdcardInserted (): boolean
+-com.android.settings.applications.ManageApplications$ApplicationsAdapter$1.performFiltering (CharSequence): Filter$FilterResults
+-com.android.settings.applications.ManageApplications$ApplicationsAdapter$1.publishResults (CharSequence, Filter$FilterResults): void
+-com.android.settings.applications.InstalledAppDetails.onPackageIconChanged (): void
+-com.android.settings.applications.InstalledAppDetails.onPackageListChanged (): void
+-com.android.settings.applications.InstalledAppDetails.onPackageSizeChanged (String): void
+-com.android.settings.applications.InstalledAppDetails.onRebuildComplete (ArrayList): void
+-com.android.settings.applications.InstalledAppDetails.processClearMsg (Message): void
+-com.android.settings.applications.InstalledAppDetails.processMoveMsg (Message): void
+-com.android.settings.applications.InstalledAppDetails.refeshUi2SD (): void
+-com.android.settings.applications.InstalledAppDetails.setNotificationsEnabled (boolean): void
+-com.android.settings.applications.RunningServiceDetails.access$000 (RunningServiceDetails, ComponentName): void
+-com.android.settings.applications.RunningServiceDetails.access$100 (RunningServiceDetails): void
+-com.android.settings.applications.RunningServiceDetails.activeDetailForService (ComponentName): RunningServiceDetails$ActiveDetail
+-com.android.settings.applications.RunningServiceDetails.finish (): void
+

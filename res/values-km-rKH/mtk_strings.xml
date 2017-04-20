@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="bluetooth_advanced_settings">ការសិតឈានមុខ</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">ផ្ទេរឯកសារ</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">ប្រើសម្រាប់ការផ្ទេរឯកសារ</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"បានតភ្ជាប់ជាមួយនឹងការផ្ទេឯកសារ"</string>  
+    <string name="mtp_transfer_unmount_error_text">កាត SD មិនអាចបិទបានទេ ក្នុងពេលកំពុងផ្ទេរឯកសារ</string>  
+    <string name="mtp_transfer_erase_error_text">កាត SD មិនអាចលុបចោលបានទេ ក្នុងពេលកំពុងផ្ទេរឯកសារ</string>  
+    <string name="launch_error">"មិនអាចចាប់ផ្តើមកម្មវិធីបានទេ!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">បិទឧបករណ៍ USB ទេ?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">បើអ្នកបិទឧបករណ៍ USB កម្មវិធីមួយចំនួនដែលអ្នកកំពុងប្រើ នឹងឈប់ដំណើរការ ហើយអាចមិនមានរហូតដល់អ្នកបើកឧបករណ៍ USB ឡើងវិញ ។</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">មិ\ន អាចបិទឧបករណ៍ USB បានទេ ។ សូមសាកល្បងជាថ្មីម្តងទៀតនៅពេលក្រោយ ។</string>  
+    <string name="unmount_usb_inform_text" product="default">ឧបករណ៍ USB នឹងត្រូវបិទ ។</string>  
+    <string name="sd_eject_usbstorage" product="default">បិទឧបករណ៍ USB</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">បិទឧបករណ៍ USB ដើម្បីឲ្យអ្នកអាចដោះវាចេញបានដោយសុវត្ថិភាព</string>  
+    <string name="sd_mount_usbstorage" product="default">បើកឧបករណ៍ USB</string>  
+    <string name="sd_insert_usb_summary" product="default">ស៊កឧបករណ៍ USB ចូល ដើម្បីបើកវា</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">ឧបករណ៍ USB</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"អនុសាសន៍ XP ។ ជួយឲ្យអ្នកអាចផ្ទេរឯកសាររវាងកុំព្យូទ័រ និងឧបករណ៍ USB Android របស់អ្នកបាន ។"</string>  
+    <string name="usb_charge_title">សាកតែមួយមុខ</string>  
+    <string name="usb_charge_summary">បញ្ឈប់រាល់មុខងររបស់ USB ។ ជួយឲ្យអ្នកបង្កើនល្បឿនក្នុងករសាក USB និងកាត់បន្ថយការប្រើថាមពល ។</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">អ្នកស្នើសុំលេខអត្តសញ្ញាណ</string>  
+    <string name="NI_Request_ClientName">ឈ្មោះម៉ាស៊ីនរណប</string>  
+    <string name="agps_str_verify">ការផ្ទៀងផ្ទាត់</string>  
+    <string name="agps_str_notify">ការប្រាប់ដំណឹង</string>  
+    <string name="EM_NotifyDialog_title">EM ប្រាប់ដំណឹង</string>  
+    <string name="agps_OK">យល់ព្រម</string>  
+    <string name="agps_str_allow">អនុញ្ញាត</string>  
+    <string name="agps_str_deny">បដិសេធ</string>  
+    <string name="agps_str_error">កំហុស</string>  
+    <string name="AGPS_DEFAULT_STRING">លំដាប់លំដោយអក្សរ A-GPS សិតពីរោងចក្រ</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">ខកខានបង្កើតបណ្តាញ</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">មាតិការ PUSH មិនត្រឹមត្រូវ</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">ប្រតិបត្តិការដែលមិនអាចប្រើជាមួយបាន</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">សំណើសុំសិតមិនត្រូវបានទទួលយក</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">មិនមានធនធានសម្រាប់ចាត់ចែងដំណើរការថ្មី</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">ការតភ្ជាប់បណ្តាញដាច់បាត់ទៅហើយ</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">ផ្នែកពីចម្ងាយលើកលែងសកម្មភាព (ទទួល SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">សារដែលសង្ឃឹមថាបានទទួល មិនត្រឡប់មកវិញ ក្នុងអំឡុងកំណាត់ពេលជាក់លាក់មួយ</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">ទទួលមាតិការសារដែលមិនត្រឹមត្រូវ</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">អ្នកប្រើយល់ព្រមលើការបញ្ជាក់</string>  
+    <string name="AGPS_CAUSE_USER_DENY">អ្នកប្រើបដិសេធលើការបញ្ជាក់</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">សម្រាប់តែគ្មានមុខងារ</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">ខកខានបញ្ជាក់ការពិត TLS</string>  
+    <string name="USER_RESPONSE_TIMEOUT">អស់ម៉ោងរង់ចាំការផ្ទៀងផ្ទាត់</string>  
+    <string name="AGPS_MODEM_RESET_HAPPEN" translatable="false">Modem reset happen</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">បានទទួលសំណើសុំ SI</string>  
+    <string name="AGPS_EM_POS_FIXED">មុខងារមិនប្រែប្រួល</string>  
+    <string name="AGPS_NOTIFY_ONLY">ស្នើសុំការប្រាប់ដំណឹងពីទីតាំង</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">ស្នើសុំទីតាំង (អនុញ្ញាត បើគ្មានចម្លើយ)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">ស្នើសុំទីតាំង (បដិសេធ បើគ្មានចម្លើយ)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">ស្នើសុំទីតាំង (ឯកជនភាព)</string>  
+    <string name="epo_entrance_title">ការសិត EPO</string>  
+    <string name="epo_entrance_summary">ចុចដើម្បីកែប្រែការធ្វើរូបសណ្ឋាន EPO</string>  
+    <string name="agps_settings_title">ការសិត A-GPS</string>  
+    <string name="epo_enable_confirm_title">បញ្ជាក់ការធ្វើឲ្យ EPO សកម្ម</string>  
+    <string name="epo_enable_confirm_message">វាត្រូវការតភ្ជាប់ទិន្នន័យគ្មានខ្សែ ដើម្បីបានទទួលជំនួយទិន្នន័យ GPS (EPO) ដែលអាចនាំឲ្យមានការចំណាយលើថ្លៃបណ្តាញបន្ថែម ។ តើអ្នកពិតជាចង់បើកជំនួយពី GPS មែនទេ?</string>  
+    <string name="epo_enable_confirm_allow">បន្ត</string>  
+    <string name="epo_enable_confirm_deny">លើកលែង</string>  
+    <string name="agps_enable_confirm_title">បញ្ជាក់ធ្វើឲ្យ A-GPS សកម្ម</string>  
+    <string name="agps_enable_confirm">A-GPS ត្រូវការតភ្ជាប់ទិន្នន័យបណ្តាញគ្មានខ្សែ ដើម្បីបានទទួលជំនួយទិន្នន័យ ដែលអាចធ្វើឲ្យត្រូវចំណាយបន្ថែម ។ តើអ្នកពិតជាចង់បើក A-GPS មែនទេ?</string>  
+    <string name="agps_enable_confirm_allow">បន្ត</string>  
+    <string name="agps_enable_confirm_deny">លើកលែង</string>  
+    <string name="epo_enable_title">ជំនួយ GPS EPO</string>  
+    <string name="epo_enable_summary">ប្រើជំនួយទិន្នន័យ GPS (EPO) ដើម្បីបង្កើនល្បឿនការចាប់ទីតាំង GPS​ ។</string>  
+    <!-- Do not translate.-->  
+    <string name="agps_settings_enable">A-GPS</string>  
+    <string name="agps_settings_enable_on">GPS អាចបង្កើនល្បឿនកំណត់ទីតាំង ជាមួយនឹងជំនួយទិន្នន័យ តារយៈការតភ្ជាប់ទិន្នន័យគ្មានខ្សែ</string>  
+    <string name="agps_settings_enable_off">ប្រើជំនួយទិន្នន័យ ដើម្បីបង្កើនល្បឿនការកំណត់ទីតាំង ជាមួយ GPS</string>  
+    <string name="agps_settings_eng_enable">ការសិត A-GPS</string>  
+    <string name="agps_settings_eng_summary">តម្លើងការសិត A-GPS</string>  
+    <string name="agps_disable_on_reboot">ធ្វើឲ្យអសកម្ម ក្រោយពីបើកម៉ាស៊ីនសាថ្មី</string>  
+    <string name="agps_disable_on_reboot_summary">ធ្វើឲ្យសមត្ថភាព A-GPS អសកម្មបន្ទាប់ពីបើកម៉ាស៊ីនសាថ្មី</string>  
+    <string name="Network_Initiate">ស្នើសុំបណ្តាញ</string>  
+    <string name="Network_Initiate_Summary_on">អនុញ្ញាតឲ្យបណ្តាញស្នើសុំទីតាំង</string>  
+    <string name="Network_Initiate_Summary_off">បដិសេធបណ្តាញមិនឲ្យស្នើសុំទីតាំង</string>  
+    <string name="Network_Used">បណ្តាញដែលបានប្រើ</string>  
+    <string name="agps_profile_select">ទម្រង់សិចទ័រ</string>  
+    <string name="agps_profile_SLP_address_editbox_title">អាសយដ្ឋាន SLP</string>  
+    <string name="port_title">រន្ធ SLP</string>  
+    <!-- Do not translate.-->  
+    <string name="tls_title">TLS</string>  
+    <string name="tls_summary_off">មុខងារ TLS ត្រូវបានបិទ</string>  
+    <string name="tls_summary_on">មុខងារ TLS ត្រូវបានបើក</string>  
+    <string name="MobileNetwork_Category">បណ្តាញចល័ត</string>  
+    <string name="AgpsHelp_Category">ជំនួយ</string>  
+    <string name="about_agps_title">អំពី A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) គឺជាប្រព័ន្ធមួយ ដែលអាចជួយកែលំអប្រសិទ្ធភាពនៃការចាប់ផ្តើម និងម៉ោងចំពោះការចាប់ដំបូង (TTFF) នៃផ្កាយរណប GPS ។ \n\t ឧបករណ៍ A-GPS ដែលមានសមត្ថភាព ងាចតភ្ជាប់ជាមួយនឹងទីតាំងរបស់ម៉ាស៊ីនមេ ដើម្បីបានទទួលជំនួយទិន្នន័យ តាមរយៈការតភ្ជាប់បណ្តាញចល័ត ។ \n\t ចូរកត់សំគាល់ទុកថា ចរាចរទិន្នន័យអាចបណ្តាលឲ្យអ្នកត្រូវចំណាយបន្ថែម ក្រោមលក្ខ័ណ្ឌរ៉ូមិងបណ្តាញ ។ សូមទំនាក់ទំនងជាមួយប្រតិបត្តិករបស់អ្នក សម្រាប់ព័ត៌មានលំអិត ។</string>  
+    <string name="epo_auto_download_title">ទាញយកដោយស្វ័យប្រវត្តិ</string>  
+    <string name="epo_auto_download_summary">ទាញយកទិន្នន័យទីតាំងផ្កាយរណបដោយស្វ័យប្រវត្តិ</string>  
+    <string name="epo_info_title">ឯកសារព័តមាន EPO</string>  
+    <string name="epo_download_time_title">រយៈពេលទាញយក</string>  
+    <string name="epo_download_time_summary">មិនមាន</string>  
+    <string name="epo_start_time_title">ពេលចាប់ផ្តើម</string>  
+    <string name="epo_start_time_summary">មិនមាន</string>  
+    <string name="epo_expire_time_title">ពេលផុតកំណត់</string>  
+    <string name="epo_expire_time_summary">មិនមាន</string>  
+    <string name="epo_about_title">អំពី EPO</string>  
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) គឺជាកម្មសិទ្ធិមួយនៃការស្រាវជ្រាវរបស់ MediaTek\'s ផ្នែកបច្ចេកទេស A-GPS ជាម្ចាស់លើម៉ាស៊ីនមេមិនស្ថិតក្នុងភាពអនឡាញ ។\n\tវាប្រើបានរហូតដល់ការទស្សន៍ទាយរង្វិលជុំរបស់ផ្កាយរណបចំនួន 30 ថ្ងៃ ដែលអាចប្រើសម្រាប់បង្កើនបទពិសោធន៍អ្នកប្រើប្រាស់ ដោយការកែលំអ GPS ពេលចាប់ដំបូង (TTFF) ។</string>  
+    <string name="Network_Local_and_Roaming_Summary">ប្រើ A-GPS ជាមួយទាំងបណ្តាញនៅផ្ទះ និងបណ្តាញរ៉ូមិង​</string>  
+    <string name="Network_Only_Local_Summary">ប្រើ A-GPS តែជាមួយបណ្តាញនៅផ្ទះ</string>  
+    <string name="MobileNetwork_DataConn_off">មុខងារការតភ្ជាប់ទិន្នន័យត្រូវបានបិទ</string>  
+    <string name="MobileNetwork_off_Summary">សូមបើកមុខងារការតភ្ជាប់ទិន្នន័យ មុនពេលប្រើ A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi សកម្ម</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS ត្រូវការចាប់យកបណ្តាញចល័តតាមរយៈការតភ្ជាប់ទិន្នន័យ</string>  
+    <string name="MobileNetwork_SIM_Active">SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g> សកម្ម
+    </string>  
+    <string name="Network_Roaming_dialog_title">ការប្រុងប្រយ័ត្ន</string>  
+    <string name="Network_Roaming_dialog_content">បើបណ្តាញស្ថិតក្រោមលក្ខ័ណ្ឌរ៉ូមិង ចរចារទិន្នន័យ A-GPS អាចធ្វើឲ្យអ្នកចំណាយថ្លៃបន្ថែម ។</string>  
+    <string name="epo_download">ទាញយក</string>  
+    <string name="epo_error_no_activite_network">សូមបើកមុខងារការតភ្ជាប់ទិន្នន័យ មុនពេលការទាញយកទិន្នន័យ EPO ។</string>  
+    <string name="epo_cancel_download">លើកលែង</string>  
+    <string name="epo_status_stopping">កំពុងបញ្ឈប់ ...</string>  
+    <string name="epo_status_starting">កំពុងចាប់ផ្តើម ...</string>  
+    <string name="epo_err_update_failed">ខកខានធ្វើបច្ចុប្បន្នភាពឯកសារ EPO</string>  
+    <string name="epo_error_dialog_title">កំហុស</string>  
+    <string name="epo_ok_btn">យល់ព្រម</string>  
+    <string name="epo_warning_dialog_title">ការប្រុងប្រយ័ត្ន</string>  
+    <string name="epo_warning_dialog_message">កំពុងទាញយកទិន្នន័យ EPO ក្នុងសភាពរ៉ូមិង អាចត្រូវចំណាយបន្ថែម ។ តើអ្នកពិតជាចង់បន្តមែនទេ?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">រោទិ៍</string>  
+    <string name="ring_vibrate_summary">រោទិ៍ និងញ័រ</string>  
+    <string name="silent_summary">ស្ងាត់</string>  
+    <string name="meeting_summary">ញ័រ</string>  
+    <string name="outdoor_summary">រោទ៍ និងញ័រខ្លាំងបំផុត</string>  
+    <string name="audio_profile_reset">សិតឡើងវិញ</string>  
+    <string name="audio_profile_add">បន្ថែម</string>  
+    <string name="audio_profile_enable">ធ្វើឲ្យសកម្ម</string>  
+    <string name="audio_profile_rename">ដាក់ឈ្មោះឡើងវិញ</string>  
+    <string name="audio_profile_delete">លុបចោល</string>  
+    <string name="audio_profile_message_reset">គ្រប់ការសិតទម្រង់អូឌីអូ នឹងត្រូវសិតទៅរកសភាពពីរោងច្រកទាំងអស់</string>  
+    <string name="audio_profile_message_rename">សូមបញ្ចូលឈ្មោះទម្រង់ថ្មី</string>  
+    <string name="audio_profile_message_name_error">ឈ្មោះដែលអ្នកបញ្ចូលមានរួចហើយ</string>  
+    <string name="audio_profile_message_name_length_wrong">ឈ្មោះយ៉ាងហោចណាស់ត្រូវមានតួអក្សរមួយ</string>  
+    <string name="audio_profile_message_delete">ទម្រង់ 
+        <xliff:g id="profile">%s</xliff:g> នឹងត្រូវលុបចោល
+    </string>  
+    <string name="audio_profile_message_overflow">អ្នកបានទទួលការអនុញ្ញាតឲ្យអាចបន្ថែមទម្រង់ដែលអ្នកចង់បាន តែ 6 ទេ</string>  
+    <string name="ok">យល់ព្រម</string>  
+    <string name="audio_profile_category_custom_title">ទម្រង់ដែលកំណត់ដោយអ្នកប្រើ</string>  
+    <string name="audio_profile_category_predefine_title">ទម្រង់ដែលបានកំណត់ទុកជាមុន</string>  
+    <string name="general_settings_title">ទូទៅ</string>  
+    <string name="silent_settings_title">ស្ងាត់</string>  
+    <string name="meeting_settings_title">ប្រជុំ</string>  
+    <string name="outdoor_settings_title">ក្រៅផ្ទះ</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">តើអ្នកពិតជាចង់រក្សាទុកមែនទេ? ការកែប្រែទៅរកការសិតពីរោងចក្រនៃ APN អាចបណ្តាលឲ្យមានបញ្ហាការតភ្ជាប់!"</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN ត្រូវបានធ្វើឲ្យអសកម្ម!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">សូមបិទម៉ូដជិះយន្តហោះ ដើម្បីឲ្យការសិត APN មានភាពសកម្ម ។</string>  
+    <string name="sound_category_feedback_title">ប្រព័ន្ធ</string>  
+    <string name="sound_category_calls_title">ការហៅចូល</string>  
+    <string name="voice_call_title">សម្លេងរោទ៍ការហៅជាសម្លេង</string>  
+    <string name="voice_call_summary">"សិតសម្លេងរោទ៍តាមបែបពីរោងចក្រចំពោះការហៅជាសម្លេងរបស់អ្នក"</string>  
+    <string name="video_call_title">សម្លេងរោទ៍ការហៅជាវីដេអូ</string>  
+    <string name="video_call_summary">សិតសម្លេងរោទ៍តាមបែបពីរោងចក្រ ចំពោះការហៅជាវីដេអូរបស់អ្នក</string>  
+    <string name="Phone_vibrate_summary">ធ្វើឲ្យឧបករណ៍ញ័រពេលហៅចូល</string>  
+    <string name="vibrate_title">ញ័រ</string>  
+    <string name="audio_profile_settings_title">ទម្រង់អូឌីអូ</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">ស្ថានភាព SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">ព័ត៌មានពាក់ព័ន្ធនឹង SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(ប្រឡោះ1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(ប្រឡោះ1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(ប្រឡោះ2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(ប្រឡោះ2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(ប្រឡោះ1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">កំណែ PRL (ប្រឡោះ1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(ប្រឡោះ1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(ប្រឡោះ2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">កំណែ PRL (ប្រឡោះ2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(ប្រឡោះ2)</string>  
+    <string name="slot_status_title">"ព័ត៌មាន IMEI"</string>  
+    <string name="slot_status_summary">"ព័ត៌មានពាក់ព័ន្ធនឹង IMEI"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">កំណែធ្វើតាមតម្រូវការផ្ទាល់</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">សេវាកម្មធ្វើបច្ចុប្បន្នភាពគ្រឿងទន់</string>  
+    <string name="mota_system_update_summary">"ឆែកមើលការធ្វើបច្ចុប្បន្នភាពគ្រឿងទន់លើម៉ាស៊ីនមេ"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">ធ្វើបច្ចុប្បន្នភាពគ្រឿងទន់</string>  
+    <string name="software_updates_more_summary">ឆែកមើលកំណែថ្មីរបស់គ្រឿងទន់</string>  
+    <string name="software_updates_scomo_summary">ឆែកមើលកំណែថ្មីរបស់កម្មវិធី</string>  
+    <string name="scomo_settings_title">សេវាកម្មធ្វើបច្ចុប្បន្នភាពគ្រឿងទន់</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">អស់ម៉ោងអេក្រង់</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">អ្នកចាប់ផ្តើមជាលក្ខណៈទេសភាព</string>  
+    <string name="landscape_launcher_none">គ្មាន</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV ចេញ</string>  
+    <string name="tvout_settings_summary">ការសិត TV ចេញ</string>  
+    <string name="tv_system_title">ប្រព័ន្ធ TV</string>  
+    <!-- For HDMI begin -->  
+    <!-- Do not translate.-->  
+    <string name="hdmi_toggler">HDMI</string>  
+    <string name="hdmi_settings">ការសិត HDMI</string>  
+    <string name="hdmi_settings_summary">ចុចដើម្បីធ្វើរូបសណ្ឋាន HDMI</string>  
+    <string name="hdmi_audio_toggler">អូឌីអូ</string>  
+    <string name="hdmi_video_toggler">វីដេអូ</string>  
+    <string name="hdmi_video_resolution">ដំណោះស្រាយវីដេអូ</string>  
+    <string name="hdmi_notification_title">ខ្សែ HDMI ត្រូវបានតភ្ជាប់</string>  
+    <string name="hdmi_notification_content">ចុចដើម្បីធ្វើរូបសណ្ឋាន HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">ឆាក</string>  
+    <string name="mtk_thememanager_title">គោលរឿង</string>  
+    <string name="default_name">ការសិតពីរោងចក្រ</string>  
+    <string name="custom_theme_name">ថ្មី [%1$s]</string>  
+    <string name="loading">កំពុងឡូត ...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(បញ្ចូល 4-8 ខ្ទង់)</string>  
+    <string name="sim_remain">(នៅសល់: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">យ៉ាងច្រើនត្រូវចំណាយ 1 នាទី ដើម្បីបានទទួល GPS នឹង ។ ក្រៅពីនេះ GPS អាចខកខានផ្តល់ម៉ោងពេល ដោយសាររលកសញ្ញាខ្សោយ ។\n\nតើអ្នកពិតជាចង់ប្រើម៉ោងដែលផ្តល់ដោយ GPS មែនទេ?</string>  
+    <string name="gps_time_sync_attention_gps_off">ដើម្បីប្រើម៉ោងផ្តល់ដោយ GPS ជាដំបូងអ្នកត្រូវធ្វើឲ្យ GPS សកម្មសិន ។ បន្ទាប់មកវាត្រូវចំណាយពេល យ៉ាងច្រើន 1 នាទី ដើម្បីបានទទួល GPS នឹង ។fix. ក្រៅពីនេះ GPS អាចខកខានផ្តល់ម៉ោងពេល ដោយសាររលកសញ្ញាខ្សោយ ។ \n\nតើអ្នកពិតជាចង់ធ្វើឲ្យ GPS សកម្មនាពេលឥឡូវនេះ ហើយរង់ចាំម៉ោងដែលផ្តល់ដោយ GPS មែនទេ?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">សិត DRM ឡើងវិញ</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">លុបចោលអាជ្ញាប័ណ្ណ DRM ទាំងអស់</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">ប្រតិបត្តិការនេះ នឹងត្រូវលុបចោលនូវអាជ្ញាប័ណ្ណទាំងអស់ដែលមាននៅក្នុងឧបករណ៍នេះ ។​ បន្តទៅមុខទេ?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">អាជ្ញាប័ណ្ណទាំងអស់ ត្រូវបានលុបចោលដោយជោគជ័យហើយ ។</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">ការចាត់ចែង SIM</string>  
+    <string name="gemini_sim_info_title">ព័ត៌មាន SIM</string>  
+    <string name="gemini_default_sim_title">SIM សិតពីរោងចក្រ</string>  
+    <string name="gemini_general_settings_title">ការសិតទូទៅ</string>  
+    <string name="gemini_roaming_settings_title">រ៉ូមិង</string>  
+    <string name="gemini_data_roaming_title">រ៉ូមិងទិន្នន័យ</string>  
+    <string name="gemini_data_roaming_summary">តភ្ជាប់ជាមួយសេវាម្មទិន្នន័យ ពេលរ៉ូមិង</string>  
+    <string name="gemini_roaming_reminder_title">បង្ហាញពីការរំឭករ៉ូមិង</string>  
+    <string name="gemini_roaming_reminder_summary">បង្ហាញការណែនាំ SIM សំអាងលើការប្រើប្រាស់ SIM</string>  
+    <string name="gemini_contacts_sim_title">"លេខទំនាក់ទំនង &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">ភ្ជាប់លេខទំនាក់ទំនងជាមួយនឹង SIM ជាក់លាក់ណាមួយ</string>  
+    <string name="gemini_voice_call">ការហៅជាសម្លេង</string>  
+    <string name="gemini_video_call">ការហៅជាវីដេអូ</string>  
+    <string name="gemini_data_connection">ការតភ្ជាប់ទិន្នន័យ</string>  
+    <string name="gemini_msg">ការផ្ញើសារ</string>  
+    <string name="gemini_default_sim_always_ask">ជានិច្ចកាលត្រូវសួរ</string>  
+    <string name="gemini_intenet_call">ការហៅតាមអ៊ិនថឺណិត</string>  
+    <string name="gemini_default_sim_never">បិទ</string>  
+    <string name="gemini_default_sim_3g_off">បិទ</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">ម៉ូដបណ្តាញ</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">មិនទាន់បានអនុវត្តទេ!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">ម៉ូដបណ្តាញ</string>  
+    <string name="gemini_3g_service_settings">សេវាកម្ម 3G</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">កំពុងធ្វើឲ្យសកម្ម\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">កំពុងធ្វើឲ្យអសកម្ម\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">ខកខាន កំហុសបណ្តាញ</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">ម៉ូដជិះយន្តហោះ</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">ទូរស័ព្ទនឹងស្ថិតក្នុងសភាពម៉ូដជិះយន្តហោះ ។ រាល់ការតភ្ជាប់ដោយគ្មានខ្សែ នឹងអសកម្ម ។ ចង់បន្តទេ?</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">កែសម្រួលឈ្មោះ SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">ខកខានរក្សាទុក</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">ចម្លងឈ្មោះឲ្យដូចសម្រាប់ SIM កាត</string>  
+    <string name="gemini_sim_info_editor_number">បញ្ចូលលេខទូរស័ព្ទ</string>  
+    <string name="gemini_sim_info_editor_color">សិតពណ៌ខាងក្រោយ</string>  
+    <string name="gemini_sim_info_editor_number_display_format">បង្ហាញលេខ</string>  
+    <string name="gemini_no_sim_indicator">មិនមាន SIM កាត</string>  
+    <string name="gemini_sim_list_default_title">បញ្ជី SIM កាត</string>  
+    <string name="gemini_data_connection_progress_message">"សូមរង់ចាំ ..."</string>  
+    <string name="gemini_3g_modem_switching_message">"ប្តូរ SIM នឹងត្រូវចំណាយពេលប្រហែល 10 វិនាទីដើម្បីបញ្ចប់ ។ សូមរង់ចាំ ..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"នេះក៏នឹងប្តូរសេវាកម្ម 3G មកកាន់ SIM នេះផងដែរ ។ ចង់បន្តទេ? សូមមេត្តាប្រាកដផងដែរថា SIM ដែឡអ្នកជ្រើសយកនេះ អាចប្រើបានជាមួយនឹងសេវាកម្ម 3G ដែរ ។"</string>  
+    <string name="gemini_3g_disable_warning">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។"</string>  
+    <string name="gemini_3g_disable_warning_cu">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; ការចាត់ចែង SIM ។"</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">ក្រោយពីធ្វើឲ្យសេវាកម្មប្រញឹកដោយស្វ័យប្រវត្តិសកម្មហើយ អ្នកអាចទទួលបានសារប្រញឹក កើតឡើងពេលកម្មវិធីកំពុងរត់ និងបង្កើតនូវចរាចរទិន្នន័យ ។ សេវាកម្មប្រញឹកដោយស្វ័យប្រវត្តិជាធម្មតា រួមបញ្ចូលនូវការប្រាប់ដំណឹងអំពីអ៊ីម៉េល ការឡូតសេវាកម្ម និងការផ្តល់នូវការប្រញឹក ។</string>  
+    <string name="gemini_wap_push_permission_tail">ទទួលយកកិច្ចព្រមព្រៀងនេះទេ?</string>  
+    <string name="gemini_wap_push_permission_title">កិច្ចព្រមព្រៀងសេវាកម្មប្រញឹកដោយស្វ័យប្រវត្តិ</string>  
+    <string name="gemini_wap_push_permission">សេវាកម្មប្រញឹកដោយស្វ័យប្រវត្តិ</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM មួយនេះសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM នេះឲ្យសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! ក្រៅពីនេះ សេវាកម្ម 3G មិនអាចប្រើបានជាមួយ SIM នេះទេ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរវាក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM នេះឲ្យសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! ក្រៅពីនេះ សេវាកម្ម 3G មិនអាចប្រើបានជាមួយ SIM នេះទេ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរវាក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_sim_tether_info_title">លេខទំនាក់ទំនង &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">បន្ថែមលេខទំនាក់ទំនង</string>  
+    <string name="gemini_sim_add_title">លេខទំនាក់ទំនង</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"អ្នកមិនមានលេខទំនាក់ទំនងណាមួយ ភ្ជាប់ជាមួយនឹង SIM បច្ចុប្បន្នទេ ។\n\nយកម្រាមដៃប៉ះលើប៊ូតុងបន្ថែមលេខទំនាក់ទំនង ដែលអ្នកចង់ដាក់ភ្ជាប់ទៅក្នុង SIM នេះ"</string>  
+    <string name="gemini_sim_tether_nocontacts">"មិនមានលេខទំនាក់ទំនងបានផ្ទុកនៅក្នុងទូរស័ព្ទរបស់អ្នកឡើយ ។ ជាដំបូង សូមបន្ថែមលេខទំនាក់ទំនងថ្មី ឬនាំលេខទំនាក់ទំនងចូលសិន"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"លេខទំនាក់ទំនងទាំងអស់បានភ្ជាប់ដោយជោគជ័យ"</string>  
+    <string name="gemini_sim_tether_disassociate">ផ្តាច់</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> បានជ្រើសរើស
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">មិនជ្រើសរើសទាំងអស់</string>  
+    <string name="gemini_sim_tether_nocontact_confirm">យល់ព្រម</string>  
+    <string name="gemini_sim_tether_select_all">ជ្រើសរើសយកទាំងអស់</string>  
+    <string name="gemini_sim_tether_select_ok">រក្សាទុក</string>  
+    <string name="gemini_sim_tether_select_cancel">លើកលែង</string>  
+    <string name="gemini_sim_tether_revert_title">ការប្រុងប្រយ័ត្ន</string>  
+    <string name="gemini_sim_tether_revert_message">ការធ្វើរូបសណ្ឋានរបស់អ្នក ត្រូវបានប្តូរ ហើយមិនទាន់បានរក្សាទុកនៅឡើយទេ ។ តើអ្នកពិតជាចង់ចាកចេញដោយមិនរក្សាទុកមែនទេ?</string>  
+    <string name="gemini_tether_saving_progress_message">កំពុងរក្សាទុក ...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>  
+    <!-- Gemini SimLock TabActivity Sim1 tab label -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>  
+    <!-- Gemini SimLock TabActivity Sim2 tab tag -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>  
+    <!-- Gemini SimLock TabActivity Sim2 tab label -->  
+    <!-- Do not translate.-->  
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">ខកខាន អត្តសញ្ញាណ sim មិនមានសុពលភាពឡើយ</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">មិនបានស៊ក SIM បញ្ចូលឡើយ ។</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">វិទ្យុទី1 ត្រូវបានបិទ ។</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">វិទ្យុទី2 ត្រូវបានបិទ ។</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">អ្នកតម្លើង APK</string>  
+    <string name="akp_installer_settings_summary">តម្លើង APK រស់អ្នក ពីទូរស័ព្ទ និងកាត SD</string>  
+    <string name="launch_main_label">ចាប់ផ្តើមកម្មវិធី</string>  
+    <string name="launch_main">ចាប់ផ្តើមកម្មវិធី ដោយសកម្មភាពចម្បង</string>  
+    <string name="launch_activitie">ចាប់ផ្តើម</string>  
+    <string name="move_app_to_where">ប្តូរទីកន្លែងទៅ 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">មិនអាចរកឃើញការបញ្ជាក់ សម្រាប់ការតភ្ជាប់ AP បច្ចុប្បន្ន</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM ប្រឡោះ</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Sim ប្រឡោះ 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Sim ប្រឡោះ 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">សូមបិទម៉ូដជិះយន្តហោះ ដើម្បីប្រើ EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">អ្នកត្រូវស៊កបញ្ចូល sim កាត ដើម្បីប្រើ EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">អ្នកត្រូវជ្រើសយកប្រឡោះ sim ដើម្បីប្រើ EAP-SIM/AKA</string>  
+    <!--for wifi security title-->  
+    <!-- Concise terminology for wifi with WAPI PSK -->  
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>  
+    <string name="wifi_security_wapi_certificate">វិញ្ញាបនប័ត្រ WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">វិញ្ញាបនប័ត្រអ្នកប្រើ</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">វិញ្ញាបនប័ត្រ ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">ពាក្យសម្ងាត់ដែលមាន ប្រាំមួយឆ្ទង់</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">ប៊ូតុងបញ្ជូន</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">ប៊ូតុងសុវត្ថិភាព</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">បើកមុខងារតភ្ជាប់ Wi-Fi ដែលអាចផ្លាស់ប្តូរបាន</string>  
+    <string name="wifi_disconnect" translatable="false">Disconnect</string>  
+    <string name="wifi_menu_disconnect" translatable="false">Disconnect from network</string>  
+    <string name="wifi_priority_label" translatable="false">Priority</string>  
+    <string name="wifi_priority_settings_label" translatable="false">Priority settings</string>  
+    <string name="wifi_configured_ap_list" translatable="false">Remembered access point list</string>  
+    <string name="trust_access_points" translatable="false">Default credible access points</string>  
+    <string name="configed_access_points" translatable="false">Credible access points</string>  
+    <string name="new_access_points" translatable="false">Unknown access points</string>  
+    <string name="msg_wlan_signal_found" translatable="false">Found WLAN signal %s, would you like to use this WLAN network? Using this network will interrupt the data service partially.</string>  
+    <string name="apn_list_category_title" translatable="false">Access point list</string>  
+    <string name="data_conn_category_title" translatable="false">Data connection</string>  
+    <string name="wifi_gprs_selector_title" translatable="false">Network selector</string>  
+    <string name="data_enabler_title" translatable="false">Data enabled</string>  
+    <string name="data_enabler_summary" translatable="false">Enable data access over Mobile network</string>  
+    <string name="data_enabler_waiting_message" translatable="false">"Please wait\u2026"</string>  
+    <string name="wifi_signal_found_msg" translatable="false">Current connection signal is weak, would you like to use another WLAN network?</string>  
+    <string name="wifi_tether_fix_channel_width_text" translatable="false">20 MHz</string>  
+    <string name="wifi_tether_auto_channel_text">ស្វ័យប្រវត្តិ</string>  
+    <string name="wifi_tether_auto_channel_width_text">20/40 MHz ស្វ័យប្រវត្តិ</string>  
+    <string name="wifi_channel">ប៉ុស្តិ៍ដែឡចូលចិត្ត</string>  
+    <string name="wifi_channel_width">ទំហំប៉ុស្តិ៍</string>  
+    <string name="confirm_title">បញ្ជាក់</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">ម៉ូដដែលចូលចិត្តក្នុងការផ្ទេរ GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">ទិន្នន័យដែលចូលចិត្ត</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">ការហៅដែលចូលចិត្ត</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">អត្រាការផ្ទេរទិន្នន័យនឹងថយចុះ ។</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">ដាក់កាលវិភាគ បើក/បិទ ថាមពល</string>  
+    <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->  
+    <string name="schedule_power_on_off_time">ម៉ោង</string>  
+    <!-- Date & time setting screen setting check box title if the date and time should be determined automatically -->  
+    <string name="schedule_power_on_off_repeat">សាឡើងវិញ</string>  
+    <!-- Date & time setting screen setting option summary text when Automatic check box is selected (that is, when date and time should be determined automatically) -->  
+    <string name="schedule_power_on_off_set">សិតកាលវិភាគបើក/បិទ ថាមពល</string>  
+    <string name="schedule_power_on_set">សិតកាលវិភាគបើកថាមពល</string>  
+    <string name="schedule_power_off_set">សិតកាលវិភាគបិទថាមពល</string>  
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->  
+    <string name="enable_schpwr">ធ្វើឲ្យសកម្ម</string>  
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->  
+    <string name="disable_schpwr">ធ្វឲ្យអសកម្ម</string>  
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->  
+    <string-array name="alarm_set"> 
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់រយៈពេលតិចជាង 1 នាទី ចាប់ពីពេលនេះ ។</item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> and 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> and 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> and 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបើកថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, and 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់រយៈពេលតិចជាង 1 នាទី ចាប់ពីពេលនេះ ។</item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> and 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g> and 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g> and 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item>  
+        <item>ការបិទថាមពលនេះ ត្រូវសិតសម្រាប់ 
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>, 
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>, and 
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g> ចាប់ពីពេលនេះ ។
+        </item> 
+    </string-array>  
+    <!-- Alarm confirmation toast: singular day -->  
+    <string name="day">"1 ថ្ងៃ"</string>  
+    <!-- Alarm confirmation toast: plural days -->  
+    <string name="days">" 
+        <xliff:g id="days">%s</xliff:g> days"
+    </string>  
+    <!-- Alarm confirmation toast: singular hour -->  
+    <string name="hour">1 ម៉ោង</string>  
+    <!-- Alarm confirmation toast: plural hours -->  
+    <string name="hours"> 
+        <xliff:g id="hours">%s</xliff:g> ម៉ោង
+    </string>  
+    <!-- Alarm confirmation toast: singular minute  -->  
+    <string name="minute">"1នាទី"</string>  
+    <!-- Alarm confirmation toast: plural minutes  -->  
+    <string name="minutes">" 
+        <xliff:g id="minutes">%s</xliff:g> minutes"
+    </string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->  
+    <string name="every_day">រៀងរាល់ថ្ងៃ</string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->  
+    <string name="never">មិនដែល</string>  
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->  
+    <string name="day_concat" translatable="false">", "</string>  
+    <!-- Done button when editing an alarm. -->  
+    <string name="done">បានធ្វើរួច</string>  
+    <!-- Revert button when editing an alarm. -->  
+    <string name="revert">បញ្ច្រាសមកវិញ</string>  
+    <string name="schpwr_shutdown_message">"ឧបករណ៍របស់អ្នកនឹងត្រូវបិទក្នុងពេល 
+        <xliff:g id="seconds">%s</xliff:g> វិនាទី"
+    </string>  
+    <string name="schpwr_shutdown_message_second">"ឧបករណ៍របស់អ្នកនឹងត្រូវបិទក្នុងពេល 
+        <xliff:g id="second">%s</xliff:g> វិនាទី"
+    </string>  
+    <string name="usb_bicr_title">CD-ROM ជាប់នៅខាងក្នុង</string>  
+    <string name="usb_bicr_summary">បង្ហាញ CD-ROM ជាក់ស្តែង ដែលមានផ្ទុកគ្រឿងទន់មានប្រយោជន៍មួយចំនួន ។</string>  
+    <string name="select_memory">សរសេរចូលថាសតាមបែបសិតពីរោងចក្រ</string>  
+    <string name="ipo_title">ចាប់ផ្តើមម៉ាស៊ីនបែបរហ័ស</string>  
+    <string name="ipo_summary_on">ធ្វើឲ្យការចាប់ផ្តើមម៉ាស៊ីនបែបរហ័សអសកម្ម</string>  
+    <string name="ipo_summary_off">ធ្វើឲ្យការចាប់ផ្តើមម៉ាស៊ីនបែបរហ័សសកម្ម</string>  
+    <string name="agps_profile_select_Title">ទម្រង់ SUPL</string>  
+    <string name="location_settings_label">ម៉ូដទីតាំងវិស្វករ</string>  
+    <string name="audio_profile_error">កំហុស</string>  
+    <string name="battery_percent">ភាគរយថ្ម</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">ការសិត RCS-e</string> 
+    <!-- Titles for battery warning dialog -->  
+    <string name="title_charger_over_voltage">"ឆ្នាំងសាកលើសចំនួនវ៉ុល"</string>  
+    <string name="title_battery_over_temperature">"ថ្មក្តៅលើសកំរិត"</string>  
+    <string name="title_over_current_protection">"លើសកំរិតការការពារបច្ចុប្បន្ន"</string>  
+    <string name="title_battery_over_voltage">"ថ្មលើសចំនួនវ៉ុល"</string>  
+    <string name="title_safety_timer_timeout">"សាកថ្មលើសម៉ោង"</string>  
+    <!-- Messages for battery warning dialog -->  
+    <string name="msg_charger_over_voltage">"ឆ្នាំងសាករបស់អ្នកលើសចំនួនវ៉ុល​ សូមដកឆ្នាំងសាកចេញ!"</string>  
+    <string name="msg_battery_over_temperature">"ថ្មរបស់អ្នកក្តៅលើសកំរិត សូមដកវាចេញ!"</string>  
+    <string name="msg_over_current_protection">"ថ្មរបស់អ្នក លើសកំរិតការការបារបច្ចុប្បន្ន សូមដកវាចេញ!"</string>  
+    <string name="msg_battery_over_voltage">"ថ្មរបស់អ្នកលើសចំនួនវ៉ុល សូមដកវាចេញ!"</string>  
+    <string name="msg_safety_timer_timeout">"សាកថ្មយូពេក សូមដកឆ្នាំងសាកចេញ!"</string>  
+    <string name="btn_ok_msg">"ដេកបន្តិច"</string>  
+    <string name="btn_cancel_msg">"លុបចោល"</string> 
+    <string name="dlg_mount_external_sd_title" product="default">ដោតកាត SD ចូល ?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">ប្រសិនបើលោកអ្នកដោតកាត SD ចូល កម្មវិធីមួយចំនួនដែលលោកអ្នកកំពុងប្រើប្រាស់នឹងឈប់ដំណើរការ ។</string>  
+
+    <string name="tethered_ipv6_title">ការសិតចំណុចតភ្ជាប់បណ្តាញចល័តដែលអាចផ្លាស់ប្តូរបាន &amp; ការភ្ជាប់</string>  
+    <string name="tethered_ipv4v6">(មាន IPv6)</string>  
+    <string name="tethered_ipv6">(មានតែ IPv6)</string>  
+    <string name="tethered_ipv4">(មិនមាន IPv6)</string>
+</resources>
